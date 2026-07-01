@@ -24,3 +24,16 @@ pravnya-marketing/
 
 Investor decks, fundraising narratives, and sales exports belong in `../pravnya-sales/`.
 
+## Deployment
+
+The website is configured for Render with `render.yaml` at the repository root.
+
+Render deploys only the `website/` directory:
+
+```text
+Root directory: website
+Build command: npm ci && npm run build
+Start command: npm run start -- -p $PORT
+```
+
+The service is configured as a Node web service named `pravnya-marketing-website`.

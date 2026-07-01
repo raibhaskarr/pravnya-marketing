@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: pravnya-marketing-website
+    runtime: node
+    rootDir: website
+    plan: free
+    region: oregon
+    branch: main
+    autoDeployTrigger: commit
+    buildCommand: npm ci && npm run build
+    startCommand: npm run start -- -p $PORT
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: 22.10.0
+      - key: NODE_ENV
+        value: production
