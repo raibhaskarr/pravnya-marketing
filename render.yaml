@@ -4,7 +4,7 @@ services:
     runtime: node
     rootDir: website
     plan: free
-    region: oregon
+    region: virginia
     branch: main
     autoDeployTrigger: commit
     buildCommand: npm ci && npm run build
@@ -15,3 +15,23 @@ services:
         value: 22.10.0
       - key: NODE_ENV
         value: production
+
+  - type: web
+    name: pravnix-website
+    runtime: node
+    repo: https://github.com/raibhaskarr/pravnya-marketing
+    rootDir: pravnix-website
+    plan: free
+    region: virginia
+    branch: main
+    autoDeployTrigger: commit
+    buildCommand: npm ci && npm run build
+    startCommand: npm run start -- -p $PORT
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: 22.10.0
+      - key: NODE_ENV
+        value: production
+      - key: CONTACT_FORM_WEBHOOK_URL
+        sync: false

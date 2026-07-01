@@ -10,15 +10,19 @@ sales and investor materials remains `../pravnya-sales/`.
 ```text
 pravnya-marketing/
 ├── docs/
-│   └── website-design-handbook.md
-└── website/
-    └── Next.js implementation for Pravnya.com
+│   ├── website-design-handbook.md
+│   └── pravnix-website-handbook.md
+├── website/
+│   └── Next.js implementation for Pravnya.com
+└── pravnix-website/
+    └── Next.js implementation for the Pravnix Labs company site (pravnix.ai)
 ```
 
 ## Responsibilities
 
 - Pravnya.com marketing website
-- Website design and content handbook
+- Pravnix.ai company website
+- Website design and content handbooks
 - Marketing implementation assets
 - Future public marketing pages and campaigns
 
@@ -26,14 +30,25 @@ Investor decks, fundraising narratives, and sales exports belong in `../pravnya-
 
 ## Deployment
 
-The website is configured for Render with `render.yaml` at the repository root.
-
-Render deploys only the `website/` directory:
+Both sites are configured for Render with a single `render.yaml` at the repository root,
+each as its own service pointed at a different root directory:
 
 ```text
-Root directory: website
+pravnya-marketing-website   rootDir: website           → pravnya.com
+pravnix-website             rootDir: pravnix-website    → pravnix.ai
+```
+
+Both use the same build/start commands:
+
+```text
 Build command: npm ci && npm run build
 Start command: npm run start -- -p $PORT
 ```
 
-The service is configured as a Node web service named `pravnya-marketing-website`.
+`pravnix-website` needs a `CONTACT_FORM_WEBHOOK_URL` env var set in the Render dashboard
+(left unset, the contact form falls back to a mailto link instead of failing silently).
+
+To connect a service defined in `render.yaml` that doesn't exist on Render yet, use the
+dashboard's **New > Blueprint** flow (or **New > Web Service** pointed at the same root
+directory) — the Render CLI can validate a blueprint (`render blueprints validate`) but
+can't create a service from scratch.
