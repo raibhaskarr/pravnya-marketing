@@ -33,7 +33,7 @@ export function organizationJsonLd() {
     "@type": "Organization",
     name: "Pravnya",
     url: siteConfig.url,
-    logo: `${siteConfig.url}/images/og-pravnya.png`,
+    logo: `${siteConfig.url}/assets/brand/pravnya-logo-light.svg`,
   };
 }
 

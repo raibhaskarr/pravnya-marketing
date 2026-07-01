@@ -28,7 +28,11 @@ export const metadata: Metadata = {
     images: [siteConfig.ogImage],
   },
   icons: {
-    icon: "/assets/favicons/favicon.ico",
+    icon: [
+      { url: "/assets/favicons/favicon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/assets/favicons/favicon-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: "/assets/favicons/apple-touch-icon.png",
   },
 };
 

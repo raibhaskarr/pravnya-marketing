@@ -8,12 +8,18 @@ import { mobileNav, primaryNav } from "@/content/navigation";
 
 export function Header() {
   const [open, setOpen] = useState(false);
+  const brand = (
+    <>
+      <img src="/assets/brand/pravnya-logo-light.svg" alt="" className="h-8 w-8 rounded-lg" aria-hidden="true" />
+      <span className="font-display text-2xl font-semibold text-forest">Pravnya</span>
+    </>
+  );
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-surface/95 backdrop-blur-md">
       <div className="container-standard flex h-16 items-center justify-between">
-        <Link href="/" className="inline-flex items-center" aria-label="Pravnya home">
-          <img src="/assets/brand/pravnya-wordmark.svg" alt="Pravnya" className="h-7 w-auto" />
+        <Link href="/" className="inline-flex items-center gap-2.5" aria-label="Pravnya home">
+          {brand}
         </Link>
         <nav className="hidden items-center gap-8 md:flex" aria-label="Primary navigation">
           {primaryNav.map((item) => (
@@ -41,8 +47,9 @@ export function Header() {
       {open ? (
         <div className="fixed inset-0 z-50 min-h-screen bg-dark-surface px-6 py-6 text-background md:hidden">
           <div className="flex items-center justify-between">
-            <Link href="/" className="inline-flex items-center" onClick={() => setOpen(false)} aria-label="Pravnya home">
-              <img src="/assets/brand/pravnya-wordmark.svg" alt="Pravnya" className="h-8 w-auto brightness-0 invert" />
+            <Link href="/" className="inline-flex items-center gap-3" onClick={() => setOpen(false)} aria-label="Pravnya home">
+              <img src="/assets/brand/pravnya-logo-dark.svg" alt="" className="h-9 w-9 rounded-lg" aria-hidden="true" />
+              <span className="font-display text-3xl font-semibold text-background">Pravnya</span>
             </Link>
             <button
               type="button"

@@ -8,8 +8,9 @@ export function Footer() {
       <div className="container-standard">
         <div className="grid gap-12 lg:grid-cols-[1.4fr_2fr]">
           <div>
-            <Link href="/" className="inline-flex items-center" aria-label="Pravnya home">
-              <img src="/assets/brand/pravnya-wordmark.svg" alt="Pravnya" className="h-9 w-auto brightness-0 invert" />
+            <Link href="/" className="inline-flex items-center gap-3" aria-label="Pravnya home">
+              <img src="/assets/brand/pravnya-logo-dark.svg" alt="" className="h-10 w-10 rounded-xl" aria-hidden="true" />
+              <span className="font-display text-3xl font-semibold text-background">Pravnya</span>
             </Link>
             <p className="mt-4 max-w-sm text-base leading-7 text-[#C8D4CC]">
               The child development companion families trust.
