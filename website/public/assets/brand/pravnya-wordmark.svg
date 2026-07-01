@@ -1,0 +1,9 @@
+<svg width="512" height="128" viewBox="0 0 512 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Pravnya wordmark</title>
+  <desc id="desc">Pravnya wordmark in forest green.</desc>
+  <rect width="512" height="128" rx="28" fill="none"/>
+  <text x="24" y="82" fill="#1A3D27" font-family="Fraunces, Georgia, serif" font-size="66" font-weight="650" letter-spacing="-1.2">Pravnya</text>
+  <path d="M455 34C474 39 487 52 490 70C472 69 458 62 448 49C443 43 439 37 438 31C443 31 449 32 455 34Z" fill="#7A9E8A"/>
+  <path d="M441 91C454 83 462 72 466 58" stroke="#B8935A" stroke-width="5" stroke-linecap="round"/>
+</svg>
+

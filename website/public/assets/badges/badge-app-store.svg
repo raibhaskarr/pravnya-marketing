@@ -1,0 +1,11 @@
+<svg width="420" height="126" viewBox="0 0 420 126" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">App Store placeholder badge</title>
+  <desc id="desc">Placeholder badge for App Store download.</desc>
+  <rect width="420" height="126" rx="28" fill="#1C2B22"/>
+  <rect x="8" y="8" width="404" height="110" rx="22" stroke="white" stroke-opacity="0.14" stroke-width="2"/>
+  <text x="116" y="48" fill="#C8D4CC" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="22" font-weight="600">PLACEHOLDER</text>
+  <text x="116" y="86" fill="#FFFFFF" font-family="Fraunces, Georgia, serif" font-size="36" font-weight="650">App Store</text>
+  <path d="M67 34C75 44 74 58 66 69C56 58 55 45 67 34Z" fill="#FFFFFF"/>
+  <path d="M48 73C48 55 59 44 76 47C92 50 100 63 95 80C91 94 80 101 66 95C55 101 45 94 42 82C41 79 41 76 42 73H48Z" fill="#FFFFFF" opacity="0.9"/>
+</svg>
+

@@ -1,0 +1,43 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Scattered information becomes a Pravnya record</title>
+  <desc id="desc">Notes, photos, messages, reports, voice notes, and memory connect into one Pravnya record.</desc>
+  <rect width="1200" height="800" rx="48" fill="#F7F4EF"/>
+  <circle cx="600" cy="398" r="132" fill="#EBF3EE" stroke="#2C5F3E" stroke-width="10"/>
+  <text x="600" y="390" text-anchor="middle" fill="#1A3D27" font-family="Fraunces, Georgia, serif" font-size="54" font-weight="650">Pravnya</text>
+  <text x="600" y="432" text-anchor="middle" fill="#5A5A56" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="21">one trusted record</text>
+  <g stroke="#9AB5A5" stroke-width="5" stroke-linecap="round" opacity="0.75">
+    <path d="M475 340L285 210"/>
+    <path d="M483 420L270 430"/>
+    <path d="M520 508L345 640"/>
+    <path d="M725 336L930 206"/>
+    <path d="M732 424L945 452"/>
+    <path d="M678 512L850 642"/>
+  </g>
+  <g font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="22" font-weight="700">
+    <rect x="135" y="130" width="210" height="130" rx="24" fill="#FFFFFF" stroke="#E4DDD0" stroke-width="3"/>
+    <text x="240" y="205" text-anchor="middle" fill="#2C5F3E">Photos</text>
+    <circle cx="178" cy="174" r="18" fill="#FAF3E8" stroke="#B8935A" stroke-width="4"/>
+    <rect x="154" y="218" width="170" height="12" rx="6" fill="#F0EDE6"/>
+
+    <rect x="100" y="375" width="230" height="120" rx="24" fill="#FFFFFF" stroke="#E4DDD0" stroke-width="3"/>
+    <text x="215" y="444" text-anchor="middle" fill="#2C5F3E">Notes</text>
+    <path d="M153 410H278M153 462H252" stroke="#C8BFB0" stroke-width="7" stroke-linecap="round"/>
+
+    <rect x="210" y="585" width="230" height="118" rx="24" fill="#FFFFFF" stroke="#E4DDD0" stroke-width="3"/>
+    <text x="325" y="654" text-anchor="middle" fill="#2C5F3E">Questions</text>
+    <circle cx="262" cy="622" r="15" fill="#EBF3EE" stroke="#2C5F3E" stroke-width="4"/>
+
+    <rect x="840" y="126" width="230" height="128" rx="24" fill="#FFFFFF" stroke="#E4DDD0" stroke-width="3"/>
+    <text x="955" y="198" text-anchor="middle" fill="#2C5F3E">Reports</text>
+    <path d="M890 160H1015M890 214H985" stroke="#C8BFB0" stroke-width="7" stroke-linecap="round"/>
+
+    <rect x="865" y="400" width="230" height="116" rx="24" fill="#FFFFFF" stroke="#E4DDD0" stroke-width="3"/>
+    <text x="980" y="467" text-anchor="middle" fill="#2C5F3E">Messages</text>
+    <path d="M918 433H1040M918 485H1010" stroke="#C8BFB0" stroke-width="7" stroke-linecap="round"/>
+
+    <rect x="775" y="595" width="230" height="118" rx="24" fill="#FFFFFF" stroke="#E4DDD0" stroke-width="3"/>
+    <text x="890" y="664" text-anchor="middle" fill="#2C5F3E">Voice</text>
+    <path d="M830 628C838 650 854 650 862 628C870 606 886 606 894 628C902 650 918 650 926 628" stroke="#B8935A" stroke-width="7" stroke-linecap="round"/>
+  </g>
+</svg>
+

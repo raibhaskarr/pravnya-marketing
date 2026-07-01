@@ -1,0 +1,30 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Longitudinal growth timeline</title>
+  <desc id="desc">A calm timeline showing small observations becoming a meaningful pattern over time.</desc>
+  <rect width="1400" height="900" rx="56" fill="#F7F4EF"/>
+  <path d="M150 682C305 636 426 584 540 512C654 440 739 376 852 332C965 288 1098 269 1250 226" stroke="#2C5F3E" stroke-width="12" stroke-linecap="round"/>
+  <path d="M150 682C305 636 426 584 540 512C654 440 739 376 852 332C965 288 1098 269 1250 226" stroke="#B8935A" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 28"/>
+  <g fill="#FFFFFF" stroke="#2C5F3E" stroke-width="8">
+    <circle cx="150" cy="682" r="24"/>
+    <circle cx="346" cy="616" r="24"/>
+    <circle cx="540" cy="512" r="24"/>
+    <circle cx="730" cy="405" r="24"/>
+    <circle cx="934" cy="306" r="24"/>
+    <circle cx="1250" cy="226" r="24"/>
+  </g>
+  <g font-family="Plus Jakarta Sans, Arial, sans-serif">
+    <rect x="88" y="715" width="150" height="58" rx="29" fill="#EBF3EE"/>
+    <text x="163" y="752" text-anchor="middle" fill="#1A3D27" font-size="22" font-weight="700">Week 2</text>
+    <rect x="462" y="545" width="160" height="58" rx="29" fill="#FAF3E8"/>
+    <text x="542" y="582" text-anchor="middle" fill="#1A3D27" font-size="22" font-weight="700">Month 2</text>
+    <rect x="844" y="354" width="180" height="58" rx="29" fill="#EBF3EE"/>
+    <text x="934" y="391" text-anchor="middle" fill="#1A3D27" font-size="22" font-weight="700">Month 6</text>
+    <rect x="1174" y="130" width="152" height="58" rx="29" fill="#FAF3E8"/>
+    <text x="1250" y="167" text-anchor="middle" fill="#1A3D27" font-size="22" font-weight="700">Year 1+</text>
+  </g>
+  <text x="700" y="126" text-anchor="middle" fill="#1A3D27" font-family="Fraunces, Georgia, serif" font-size="66" font-weight="650">Progress within this child's story</text>
+  <text x="700" y="184" text-anchor="middle" fill="#5A5A56" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="26">Small observations become meaningful over time.</text>
+  <path d="M217 350H418M217 402H372M217 454H455" stroke="#C8BFB0" stroke-width="10" stroke-linecap="round"/>
+  <path d="M946 610H1160M946 662H1088M946 714H1198" stroke="#C8BFB0" stroke-width="10" stroke-linecap="round"/>
+</svg>
+
