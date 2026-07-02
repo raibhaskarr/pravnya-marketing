@@ -1,6 +1,7 @@
 export const primaryNav = [
   { label: "Features", href: "/features" },
   { label: "How it works", href: "/how-it-works" },
+  { label: "Parents", href: "/parents" },
   { label: "Why Pravnya", href: "/why-pravnya" },
   { label: "About", href: "/about" },
 ];
@@ -16,6 +17,7 @@ export const footerLinks = {
   Product: [
     { label: "Features", href: "/features" },
     { label: "How it works", href: "/how-it-works" },
+    { label: "Parents", href: "/parents" },
     { label: "Why Pravnya", href: "/why-pravnya" },
     { label: "Ask Pravnya AI", href: "/ask-pravnya-ai" },
     { label: "Growth", href: "/growth" },

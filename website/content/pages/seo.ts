@@ -23,6 +23,12 @@ export const seo = {
     keywords: ["responsible AI child development", "parent confidence gap"],
     path: "/why-pravnya",
   },
+  parents: {
+    title: "Pravnya for Parents — Every step forward matters",
+    description: "A parent-friendly guide to Pravnya: what it is, how it helps families, responsible AI, privacy, beta access, and frequently asked questions.",
+    keywords: ["Pravnya for parents", "child development companion", "parent development record"],
+    path: "/parents",
+  },
   askPravnya: {
     title: "Ask Pravnya AI — Honest AI for development",
     description: "Evidence-based AI that works from your record, not from population databases",
