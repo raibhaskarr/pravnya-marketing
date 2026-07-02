@@ -27,9 +27,9 @@ export default function PrivacyPage() {
           <div>
             <h2 className="font-display text-4xl">What happens to your data — specifically.</h2>
             <div className="mt-8 space-y-5 text-base leading-7 text-ink-secondary">
-              <p>Your record is stored on secure servers in the configured production region. All data is encrypted at rest and in transit.</p>
+              <p>Your record is stored on secure servers. All data is encrypted at rest and in transit.</p>
               <p>The AI models that generate summaries are trained on general datasets, not on individual family records.</p>
-              <p>You can export your record at any time. You can delete your account and all associated data.</p>
+              <p>You can request a copy of your record or ask us to delete your account and its data at any time by contacting <a href="mailto:support@pravnya.com" className="text-forest underline">support@pravnya.com</a>. Self-serve export and deletion tools are on our roadmap.</p>
             </div>
           </div>
           <div className="grid gap-5">

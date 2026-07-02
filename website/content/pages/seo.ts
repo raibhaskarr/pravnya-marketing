@@ -65,6 +65,12 @@ export const seo = {
     keywords: ["child data privacy", "family data", "developmental record security"],
     path: "/privacy",
   },
+  terms: {
+    title: "Terms of Service — Pravnya",
+    description: "The terms that govern your use of Pravnya, including account eligibility, your family's data, and our AI features.",
+    keywords: ["Pravnya terms of service", "Pravnya terms and conditions"],
+    path: "/terms",
+  },
   faq: {
     title: "Pravnya FAQ — Questions parents ask",
     description: "Answers to common questions about Pravnya, the AI, data privacy, and professional use",

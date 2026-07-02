@@ -33,7 +33,7 @@ export const footerLinks = {
   ],
   Legal: [
     { label: "Privacy policy", href: "/privacy" },
-    { label: "Terms of service", href: "#" },
+    { label: "Terms of service", href: "/terms" },
     { label: "Data retention", href: "#" },
     { label: "Accessibility", href: "#" },
   ],
