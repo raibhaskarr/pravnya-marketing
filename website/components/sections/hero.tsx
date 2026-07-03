@@ -55,9 +55,9 @@ export function Hero({
           </div>
         </div>
         {!centered && visualSrc ? (
-          <figure className="rounded-2xl border border-border bg-surface p-4 shadow-l">
+          <figure className="min-w-0 max-w-full rounded-2xl border border-border bg-surface p-4 shadow-l">
             <div className="overflow-hidden rounded-xl border border-border bg-background">
-              <img src={visualSrc} alt={visualAlt ?? ""} className="h-full min-h-[440px] w-full object-cover" />
+              <img src={visualSrc} alt={visualAlt ?? ""} className="h-full min-h-[440px] w-full max-w-full object-cover" />
             </div>
             {visualCaption ? <figcaption className="mt-4 text-center text-sm text-ink-secondary">{visualCaption}</figcaption> : null}
           </figure>
