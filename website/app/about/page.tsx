@@ -10,7 +10,12 @@ export const metadata: Metadata = pageMetadata("about");
 export default function AboutPage() {
   return (
     <>
-      <Hero title="We built Pravnya because of a moment every parent knows." placeholder="Parent and child moment" />
+      <Hero
+        title="We built Pravnya because of a moment every parent knows."
+        visualSrc="/assets/brand/illustration-parent-child-moment.svg"
+        visualAlt="A parent and child sitting together as everyday moments become an organized Pravnya record"
+        visualCaption="The company began with a simple question: where should all these moments go?"
+      />
       <section className="pb-20">
         <div className="container-standard grid gap-10 lg:grid-cols-[1fr_0.9fr]">
           <div className="space-y-6 text-lg leading-8 text-ink-secondary">
@@ -40,4 +45,3 @@ export default function AboutPage() {
     </>
   );
 }
-

@@ -11,6 +11,9 @@ type Props = {
   secondaryCta?: string;
   secondaryHref?: string;
   placeholder?: string;
+  visualSrc?: string;
+  visualAlt?: string;
+  visualCaption?: string;
   centered?: boolean;
 };
 
@@ -23,6 +26,9 @@ export function Hero({
   secondaryCta,
   secondaryHref = "/how-it-works",
   placeholder,
+  visualSrc,
+  visualAlt,
+  visualCaption,
   centered = false,
 }: Props) {
   return (
@@ -47,8 +53,15 @@ export function Hero({
             ) : null}
           </div>
         </div>
-        {!centered && placeholder ? (
-          <PlaceholderFrame label={placeholder} caption="Placeholder visual; replace with final approved asset." tall />
+        {!centered && visualSrc ? (
+          <figure className="rounded-2xl border border-border bg-surface p-4 shadow-l">
+            <div className="overflow-hidden rounded-xl border border-border bg-background">
+              <img src={visualSrc} alt={visualAlt ?? ""} className="h-full min-h-[440px] w-full object-cover" />
+            </div>
+            {visualCaption ? <figcaption className="mt-4 text-center text-sm text-ink-secondary">{visualCaption}</figcaption> : null}
+          </figure>
+        ) : !centered && placeholder ? (
+          <PlaceholderFrame label={placeholder} tall />
         ) : null}
       </div>
     </section>

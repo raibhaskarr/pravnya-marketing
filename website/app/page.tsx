@@ -43,7 +43,9 @@ export default function HomePage() {
         body="Pravnya helps parents capture moments, understand patterns, and walk into every appointment knowing exactly what they've seen."
         primaryCta="Start your record — it's free"
         secondaryCta="See how it works"
-        placeholder="Parent and child moment"
+        visualSrc="/assets/brand/illustration-parent-child-moment.svg"
+        visualAlt="A parent and child sitting together as everyday moments become an organized Pravnya record"
+        visualCaption="A calm place for the small moments that become meaningful over time."
       />
       <section className="pb-16">
         <div className="container-standard flex flex-wrap gap-4 text-sm text-ink-secondary">

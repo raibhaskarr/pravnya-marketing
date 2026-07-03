@@ -73,7 +73,9 @@ export default function ParentsPage() {
         primaryHref="/contact"
         secondaryCta="Download"
         secondaryHref="/download"
-        placeholder="Parent and child everyday moment"
+        visualSrc="/assets/brand/illustration-parent-child-moment.svg"
+        visualAlt="A parent and child sitting together as everyday moments become an organized Pravnya record"
+        visualCaption="Built for everyday moments, not only appointments."
       />
 
       <div className="container-standard pb-20">
