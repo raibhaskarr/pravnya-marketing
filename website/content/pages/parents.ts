@@ -83,6 +83,7 @@ export const parentFeatures = [
     body: "Capture a moment visually, straight from your camera or photo library, with a short note explaining what it shows.",
     benefit: "Turns a photo into a searchable, meaningful part of your child's record — not just another file in your camera roll.",
     screenshot: "App screenshot: Photo capture",
+    screenshotSrc: "/assets/screenshots/screenshot-capture.webp",
   },
   {
     icon: VideoCamera,
@@ -91,6 +92,7 @@ export const parentFeatures = [
       "Add a short video when something is better shown than described — a new movement, a first attempt at a word, a moment of play.",
     benefit: "Captures nuance that a written note can't.",
     screenshot: "App screenshot: Video capture",
+    screenshotSrc: "/assets/screenshots/screenshot-capture.webp",
   },
   {
     icon: Microphone,
@@ -99,6 +101,7 @@ export const parentFeatures = [
       "Speak instead of type. Voice notes are automatically transcribed and become fully searchable, and they work even without an internet connection — transcription completes as soon as you're back online.",
     benefit: "The lowest-effort way to capture something before it slips your mind.",
     screenshot: "App screenshot: Voice note",
+    screenshotSrc: "/assets/screenshots/screenshot-capture.webp",
   },
   {
     icon: BookOpen,
@@ -163,6 +166,7 @@ export const parentFeatures = [
     body: "A searchable library of plain-English guidance covering every part of Pravnya, plus contextual help right where you need it.",
     benefit: "You're never more than a tap away from a clear answer.",
     screenshot: "App screenshot: Help Centre",
+    screenshotSrc: "/assets/screenshots/screenshot-ask-pravnya.webp",
   },
   {
     icon: LockKey,
@@ -171,6 +175,7 @@ export const parentFeatures = [
       "Your child's record is encrypted, private by default, and visible only to you unless you choose to share it. You can export or permanently delete your data at any time.",
     benefit: "Peace of mind that comes from real control, not just a promise.",
     screenshot: "App screenshot: Privacy controls",
+    screenshotSrc: "/assets/screenshots/screenshot-sharing-permissions.webp",
     cta: { label: "Read privacy", href: "/privacy" },
   },
 ];
