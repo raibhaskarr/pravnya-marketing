@@ -89,9 +89,9 @@ export default function HomePage() {
         <div className="container-standard">
           <SectionHeading eyebrow="The record, in your hands" title="Built for real family life." />
           <div className="mt-12 grid gap-6 md:grid-cols-3">
-            <PhoneMockup label="App screenshot: Today" alt="Pravnya Today screen showing recent child development observations" caption="Capture anything. Nothing gets lost." />
-            <PhoneMockup label="App screenshot: Journey" alt="Pravnya Journey screen showing a child's organized development timeline" caption="Your child's story, organized over time." />
-            <PhoneMockup label="App screenshot: Growth" alt="Pravnya Growth screen showing progress patterns over time" caption="Your record becomes your preparation." />
+            <PhoneMockup src="/assets/screenshots/screenshot-today.webp" label="App screenshot: Today" alt="Pravnya Today screen showing recent child development observations" caption="Capture anything. Nothing gets lost." />
+            <PhoneMockup src="/assets/screenshots/screenshot-journey.webp" label="App screenshot: Journey" alt="Pravnya Journey screen showing a child's organized development timeline" caption="Your child's story, organized over time." />
+            <PhoneMockup src="/assets/screenshots/screenshot-growth.webp" label="App screenshot: Growth" alt="Pravnya Growth screen showing progress patterns over time" caption="Your record becomes your preparation." />
           </div>
         </div>
       </section>

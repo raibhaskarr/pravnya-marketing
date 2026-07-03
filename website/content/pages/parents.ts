@@ -56,6 +56,7 @@ export const parentFeatures = [
       "Every child has their own space: basic details, the developmental areas you're keeping an eye on, and the professionals involved in their care. You build it gradually — nothing has to be filled in on day one.",
     benefit: "Everything about your child's journey starts from one organised place.",
     screenshot: "App screenshot: Child Profile",
+    screenshotSrc: "/assets/screenshots/screenshot-child-profile.webp",
     cta: { label: "Learn more", href: "/features" },
   },
   {
@@ -65,6 +66,7 @@ export const parentFeatures = [
       "Your home screen. It shows what you've recently captured, any AI insight that's ready for you, and puts the capture button one tap away.",
     benefit: "A quick daily check-in — not another dashboard to study.",
     screenshot: "App screenshot: Today",
+    screenshotSrc: "/assets/screenshots/screenshot-today.webp",
     cta: { label: "See how it works", href: "/how-it-works" },
   },
   {
@@ -73,6 +75,7 @@ export const parentFeatures = [
     body: "The fastest way to add anything to your child's record — in whichever form fits the moment.",
     benefit: "A thirty-second voice note captured in the moment beats a perfectly written paragraph that never gets written.",
     screenshot: "App screenshot: Quick Capture",
+    screenshotSrc: "/assets/screenshots/screenshot-capture.webp",
   },
   {
     icon: Camera,
@@ -105,6 +108,7 @@ export const parentFeatures = [
     benefit:
       "Patterns and progress become visible when you look at weeks and months together. It may feel sparse at first; it becomes rich after a few months of steady capturing.",
     screenshot: "App screenshot: Journey timeline",
+    screenshotSrc: "/assets/screenshots/screenshot-journey.webp",
     cta: { label: "Explore Journey", href: "/journey" },
   },
   {
@@ -114,6 +118,7 @@ export const parentFeatures = [
       "Shows movement in your child's own story — and only that. Pravnya never shows a score, a percentile, or a behind/on-track label. You choose the time period you want to look at.",
     benefit: "Progress you can see and feel proud of, measured against your own child, over time.",
     screenshot: "App screenshot: Growth view",
+    screenshotSrc: "/assets/screenshots/screenshot-growth.webp",
     cta: { label: "Explore Growth", href: "/growth" },
   },
   {
@@ -123,6 +128,7 @@ export const parentFeatures = [
       "A conversational AI that helps you understand your own observations more deeply — by reading only your child's record, never the open internet or other families' data.",
     benefit: "A thoughtful second look at what you've already noticed, without ever telling you what to do.",
     screenshot: "App screenshot: Ask Pravnya",
+    screenshotSrc: "/assets/screenshots/screenshot-ask-pravnya.webp",
     cta: { label: "Read AI commitments", href: "/ask-pravnya-ai" },
   },
   {
@@ -131,6 +137,7 @@ export const parentFeatures = [
     body: "Your complete record — every note, photo, voice memo, and document you've ever captured, newest first, and fully searchable.",
     benefit: "Go back, add a tag you forgot, or find the one entry from six months ago that suddenly matters again.",
     screenshot: "App screenshot: Activities",
+    screenshotSrc: "/assets/screenshots/screenshot-activities.webp",
   },
   {
     icon: FileText,
@@ -139,6 +146,7 @@ export const parentFeatures = [
       "Generates a structured summary of what your record shows — observations, what's changed, and questions worth raising — ready in minutes, before any appointment.",
     benefit: "Walk in prepared instead of trying to remember everything on the spot.",
     screenshot: "App screenshot: Appointment preparation report",
+    screenshotSrc: "/assets/screenshots/screenshot-preparation-summary.webp",
   },
   {
     icon: ShareNetwork,
@@ -147,6 +155,7 @@ export const parentFeatures = [
       "For a single appointment, send a secure, time-limited link or exported PDF. For an ongoing relationship, add someone to Who Has Access with exactly the permissions you choose.",
     benefit: "Nothing is shared unless you choose to share it — and you're always in control of how much.",
     screenshot: "App screenshot: Sharing permissions",
+    screenshotSrc: "/assets/screenshots/screenshot-sharing-permissions.webp",
   },
   {
     icon: Sparkle,

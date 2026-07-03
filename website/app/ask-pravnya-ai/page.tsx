@@ -41,6 +41,7 @@ export default function AskPravnyaAiPage() {
         <div className="container-standard grid items-center gap-10 lg:grid-cols-2">
           <SectionHeading align="left" title="What it looks like in practice." body="A pattern card shows the summary, the supporting entries, a confidence indicator, and a practical note about how to use the insight." />
           <AnnotatedScreenshot
+            src="/assets/screenshots/screenshot-ask-pravnya.webp"
             label="App screenshot: Ask Pravnya"
             alt="Ask Pravnya AI screen showing evidence, confidence, and a careful summary"
             caption="Evidence-traced AI summary with confidence indicator."

@@ -17,6 +17,7 @@ const features = [
     body:
       "A child says something new. They navigate something that was hard last week. You notice a pattern you've never seen before. These moments are small and fast. The record should match them. Pravnya capture takes under two minutes in any format — voice, text, photo, or document.",
     placeholder: "App screenshot: Today",
+    src: "/assets/screenshots/screenshot-today.webp",
     alt: "Pravnya Today screen ready for a real production screenshot",
     frame: "phone",
   },
@@ -26,6 +27,7 @@ const features = [
     body:
       "Every observation you capture is automatically structured: tagged by developmental domain, connected to the professional or setting it relates to, and placed in the timeline where it belongs. You never sort. You never file. You never wonder where something went.",
     placeholder: "App screenshot: Journey",
+    src: "/assets/screenshots/screenshot-journey.webp",
     alt: "Pravnya Journey screen ready for a real production screenshot",
     frame: "phone",
   },
@@ -35,6 +37,7 @@ const features = [
     body:
       "The most valuable thing about a longitudinal record is not any single entry. It is the pattern that emerges across dozens of entries over months. Pravnya AI reads your record and surfaces those patterns, with every insight traced back to specific entries.",
     placeholder: "App screenshot: Growth",
+    src: "/assets/screenshots/screenshot-growth.webp",
     alt: "Pravnya Growth screen ready for a real production screenshot",
     frame: "phone",
   },
@@ -44,6 +47,7 @@ const features = [
     body:
       "Before every meeting — therapy, school review, pediatrician, specialist — Pravnya generates a clear, organized summary of what you've observed in the relevant period. It covers what used to take an hour to reconstruct from memory.",
     placeholder: "App screenshot: appointment brief",
+    src: "/assets/screenshots/screenshot-preparation-summary.webp",
     alt: "Pravnya preparation summary ready for a real production screenshot",
     frame: "tablet",
   },
@@ -53,6 +57,7 @@ const features = [
     body:
       "Pravnya makes sharing controlled, contextual, and consensual. You select what to include. You review what will be shared. You initiate the share. You can revoke access at any time.",
     placeholder: "App screenshot: sharing permissions",
+    src: "/assets/screenshots/screenshot-sharing-permissions.webp",
     alt: "Pravnya sharing permissions screen ready for a real production screenshot",
     frame: "phone",
   },
@@ -80,9 +85,9 @@ export default function FeaturesPage() {
                 </div>
               </div>
               {feature.frame === "tablet" ? (
-                <TabletMockup label={feature.placeholder} alt={feature.alt} caption="Final screenshot pending production capture." />
+                <TabletMockup src={feature.src} label={feature.placeholder} alt={feature.alt} caption="Sanitized demo screenshot for launch review." />
               ) : (
-                <PhoneMockup label={feature.placeholder} alt={feature.alt} caption="Final screenshot pending production capture." />
+                <PhoneMockup src={feature.src} label={feature.placeholder} alt={feature.alt} caption="Sanitized demo screenshot for launch review." />
               )}
             </article>
           ))}

@@ -121,9 +121,10 @@ export default function ParentsPage() {
                   </div>
                 </div>
                 <FloatingScreenshot
+                  src="/assets/screenshots/screenshot-today.webp"
                   label="App screenshot: Today"
-                  alt="Pravnya Today screen placeholder"
-                  caption="Replace with an approved real Today screenshot."
+                  alt="Pravnya Today screen showing a sanitized demo child record"
+                  caption="Sanitized demo screenshot for launch review."
                 />
               </div>
             </AnchorSection>
