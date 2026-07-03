@@ -19,6 +19,7 @@ const features = [
     placeholder: "App screenshot: Today",
     src: "/assets/screenshots/screenshot-today.webp",
     alt: "Pravnya Today screen ready for a real production screenshot",
+    caption: "Capture, review, and act from the daily home view.",
     frame: "phone",
   },
   {
@@ -29,6 +30,7 @@ const features = [
     placeholder: "App screenshot: Journey",
     src: "/assets/screenshots/screenshot-journey.webp",
     alt: "Pravnya Journey screen ready for a real production screenshot",
+    caption: "A living timeline of moments, memories, and progress.",
     frame: "phone",
   },
   {
@@ -39,6 +41,7 @@ const features = [
     placeholder: "App screenshot: Growth",
     src: "/assets/screenshots/screenshot-growth.webp",
     alt: "Pravnya Growth screen ready for a real production screenshot",
+    caption: "Growth is shown through patterns over time, not comparison.",
     frame: "phone",
   },
   {
@@ -49,6 +52,7 @@ const features = [
     placeholder: "App screenshot: appointment brief",
     src: "/assets/screenshots/screenshot-preparation-summary.webp",
     alt: "Pravnya preparation summary ready for a real production screenshot",
+    caption: "Structured summaries help families walk into appointments prepared.",
     frame: "tablet",
   },
   {
@@ -59,6 +63,7 @@ const features = [
     placeholder: "App screenshot: sharing permissions",
     src: "/assets/screenshots/screenshot-sharing-permissions.webp",
     alt: "Pravnya sharing permissions screen ready for a real production screenshot",
+    caption: "Parents decide what is shared, with whom, and for how long.",
     frame: "phone",
   },
 ];
@@ -85,9 +90,9 @@ export default function FeaturesPage() {
                 </div>
               </div>
               {feature.frame === "tablet" ? (
-                <TabletMockup src={feature.src} label={feature.placeholder} alt={feature.alt} caption="Sanitized demo screenshot for launch review." />
+                <TabletMockup src={feature.src} label={feature.placeholder} alt={feature.alt} caption={feature.caption} />
               ) : (
-                <PhoneMockup src={feature.src} label={feature.placeholder} alt={feature.alt} caption="Sanitized demo screenshot for launch review." />
+                <PhoneMockup src={feature.src} label={feature.placeholder} alt={feature.alt} caption={feature.caption} />
               )}
             </article>
           ))}

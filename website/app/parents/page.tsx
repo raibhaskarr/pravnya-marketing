@@ -124,7 +124,7 @@ export default function ParentsPage() {
                   src="/assets/screenshots/screenshot-today.webp"
                   label="App screenshot: Today"
                   alt="Pravnya Today screen showing a sanitized demo child record"
-                  caption="Sanitized demo screenshot for launch review."
+                  caption="The Today view brings observations, insights, and next steps into one place."
                 />
               </div>
             </AnchorSection>

@@ -57,6 +57,7 @@ export const parentFeatures = [
     benefit: "Everything about your child's journey starts from one organised place.",
     screenshot: "App screenshot: Child Profile",
     screenshotSrc: "/assets/screenshots/screenshot-child-profile.webp",
+    screenshotCaption: "A dedicated space for your child's profile, supports, and development areas.",
     cta: { label: "Learn more", href: "/features" },
   },
   {
@@ -67,6 +68,7 @@ export const parentFeatures = [
     benefit: "A quick daily check-in — not another dashboard to study.",
     screenshot: "App screenshot: Today",
     screenshotSrc: "/assets/screenshots/screenshot-today.webp",
+    screenshotCaption: "Recent insights, reminders, and capture actions in one calm daily view.",
     cta: { label: "See how it works", href: "/how-it-works" },
   },
   {
@@ -76,6 +78,7 @@ export const parentFeatures = [
     benefit: "A thirty-second voice note captured in the moment beats a perfectly written paragraph that never gets written.",
     screenshot: "App screenshot: Quick Capture",
     screenshotSrc: "/assets/screenshots/screenshot-capture.webp",
+    screenshotCaption: "Choose the fastest way to save what just happened.",
   },
   {
     icon: Camera,
@@ -84,6 +87,7 @@ export const parentFeatures = [
     benefit: "Turns a photo into a searchable, meaningful part of your child's record — not just another file in your camera roll.",
     screenshot: "App screenshot: Photo capture",
     screenshotSrc: "/assets/screenshots/screenshot-photo-capture.webp",
+    screenshotCaption: "Save a photo memory with context so it becomes part of the record.",
   },
   {
     icon: VideoCamera,
@@ -93,6 +97,7 @@ export const parentFeatures = [
     benefit: "Captures nuance that a written note can't.",
     screenshot: "App screenshot: Video capture",
     screenshotSrc: "/assets/screenshots/screenshot-video-upload.webp",
+    screenshotCaption: "Upload a video and tell Pravnya what to focus on.",
   },
   {
     icon: Microphone,
@@ -102,6 +107,7 @@ export const parentFeatures = [
     benefit: "The lowest-effort way to capture something before it slips your mind.",
     screenshot: "App screenshot: Voice note",
     screenshotSrc: "/assets/screenshots/screenshot-voice-note.webp",
+    screenshotCaption: "Record or upload a voice note when typing is too slow.",
   },
   {
     icon: BookOpen,
@@ -112,6 +118,7 @@ export const parentFeatures = [
       "Patterns and progress become visible when you look at weeks and months together. It may feel sparse at first; it becomes rich after a few months of steady capturing.",
     screenshot: "App screenshot: Journey timeline",
     screenshotSrc: "/assets/screenshots/screenshot-journey.webp",
+    screenshotCaption: "Moments become a timeline your family can revisit.",
     cta: { label: "Explore Journey", href: "/journey" },
   },
   {
@@ -122,6 +129,7 @@ export const parentFeatures = [
     benefit: "Progress you can see and feel proud of, measured against your own child, over time.",
     screenshot: "App screenshot: Growth view",
     screenshotSrc: "/assets/screenshots/screenshot-growth.webp",
+    screenshotCaption: "See progress through your child's own story.",
     cta: { label: "Explore Growth", href: "/growth" },
   },
   {
@@ -132,6 +140,7 @@ export const parentFeatures = [
     benefit: "A thoughtful second look at what you've already noticed, without ever telling you what to do.",
     screenshot: "App screenshot: Ask Pravnya",
     screenshotSrc: "/assets/screenshots/screenshot-ask-pravnya.webp",
+    screenshotCaption: "Ask thoughtful questions grounded in your own record.",
     cta: { label: "Read AI commitments", href: "/ask-pravnya-ai" },
   },
   {
@@ -141,6 +150,7 @@ export const parentFeatures = [
     benefit: "Go back, add a tag you forgot, or find the one entry from six months ago that suddenly matters again.",
     screenshot: "App screenshot: Activities",
     screenshotSrc: "/assets/screenshots/screenshot-activities.webp",
+    screenshotCaption: "Simple home practice ideas linked to your child's current needs.",
   },
   {
     icon: FileText,
@@ -150,6 +160,7 @@ export const parentFeatures = [
     benefit: "Walk in prepared instead of trying to remember everything on the spot.",
     screenshot: "App screenshot: Appointment preparation report",
     screenshotSrc: "/assets/screenshots/screenshot-preparation-summary.webp",
+    screenshotCaption: "Prepare for appointments with a structured summary.",
   },
   {
     icon: ShareNetwork,
@@ -159,6 +170,7 @@ export const parentFeatures = [
     benefit: "Nothing is shared unless you choose to share it — and you're always in control of how much.",
     screenshot: "App screenshot: Sharing permissions",
     screenshotSrc: "/assets/screenshots/screenshot-sharing-permissions.webp",
+    screenshotCaption: "Control exactly who can see what.",
   },
   {
     icon: Sparkle,
@@ -167,6 +179,7 @@ export const parentFeatures = [
     benefit: "You're never more than a tap away from a clear answer.",
     screenshot: "App screenshot: Help Centre",
     screenshotSrc: "/assets/screenshots/screenshot-ask-pravnya.webp",
+    screenshotCaption: "Clear answers stay close to the moments you are working through.",
   },
   {
     icon: LockKey,
@@ -176,6 +189,7 @@ export const parentFeatures = [
     benefit: "Peace of mind that comes from real control, not just a promise.",
     screenshot: "App screenshot: Privacy controls",
     screenshotSrc: "/assets/screenshots/screenshot-sharing-permissions.webp",
+    screenshotCaption: "Privacy settings and sharing controls remain parent-led.",
     cta: { label: "Read privacy", href: "/privacy" },
   },
 ];

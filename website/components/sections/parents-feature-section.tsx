@@ -10,6 +10,7 @@ type ParentFeature = {
   benefit: string;
   screenshot: string;
   screenshotSrc?: string;
+  screenshotCaption?: string;
   cta?: {
     label: string;
     href: string;
@@ -51,7 +52,7 @@ export function ParentsFeatureSection({ features }: Props) {
               src={feature.screenshotSrc}
               label={feature.screenshot}
               alt={`${feature.title} screenshot`}
-              caption={feature.screenshotSrc ? "Sanitized demo screenshot for launch review." : "Final screenshot pending approved production capture."}
+              caption={feature.screenshotCaption ?? `${feature.title} in Pravnya.`}
               priority="P1"
               className={cn(index % 2 ? "lg:order-1" : "")}
             />
