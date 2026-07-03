@@ -83,7 +83,7 @@ export const parentFeatures = [
     body: "Capture a moment visually, straight from your camera or photo library, with a short note explaining what it shows.",
     benefit: "Turns a photo into a searchable, meaningful part of your child's record — not just another file in your camera roll.",
     screenshot: "App screenshot: Photo capture",
-    screenshotSrc: "/assets/screenshots/screenshot-capture.webp",
+    screenshotSrc: "/assets/screenshots/screenshot-photo-capture.webp",
   },
   {
     icon: VideoCamera,
@@ -92,7 +92,7 @@ export const parentFeatures = [
       "Add a short video when something is better shown than described — a new movement, a first attempt at a word, a moment of play.",
     benefit: "Captures nuance that a written note can't.",
     screenshot: "App screenshot: Video capture",
-    screenshotSrc: "/assets/screenshots/screenshot-capture.webp",
+    screenshotSrc: "/assets/screenshots/screenshot-video-upload.webp",
   },
   {
     icon: Microphone,
@@ -101,7 +101,7 @@ export const parentFeatures = [
       "Speak instead of type. Voice notes are automatically transcribed and become fully searchable, and they work even without an internet connection — transcription completes as soon as you're back online.",
     benefit: "The lowest-effort way to capture something before it slips your mind.",
     screenshot: "App screenshot: Voice note",
-    screenshotSrc: "/assets/screenshots/screenshot-capture.webp",
+    screenshotSrc: "/assets/screenshots/screenshot-voice-note.webp",
   },
   {
     icon: BookOpen,
