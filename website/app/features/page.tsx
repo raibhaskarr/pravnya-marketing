@@ -104,7 +104,7 @@ export default function FeaturesPage() {
           <div className="mt-10"><ComparisonTable /></div>
         </div>
       </section>
-      <CtaBanner title="Every feature. One record. Your family." cta="Start free" href="/contact" />
+      <CtaBanner title="Every feature. One record. Your family." cta="Start free" />
     </>
   );
 }

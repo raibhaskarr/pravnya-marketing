@@ -27,6 +27,7 @@ import {
   responsibleAiPoints,
   UsersThree,
 } from "@/content/pages/parents";
+import { siteConfig } from "@/content/site";
 import { Lock, SealCheck, Sparkle } from "@phosphor-icons/react/dist/ssr";
 import { pageMetadata } from "@/lib/seo";
 
@@ -70,7 +71,7 @@ export default function ParentsPage() {
         title={parentsHero.title}
         body={parentsHero.body}
         primaryCta="Join Beta"
-        primaryHref="/contact"
+        primaryHref={siteConfig.signUpUrl}
         secondaryCta="Download"
         secondaryHref="/download"
         visualSrc="/assets/brand/illustration-parent-child-moment.svg"
@@ -231,7 +232,7 @@ export default function ParentsPage() {
                     features you wish existed all feed straight back into the product.
                   </p>
                   <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-                    <Button href="/contact">Join Beta</Button>
+                    <Button href={siteConfig.signUpUrl}>Join Beta</Button>
                     <Button href="/download" variant="secondary">Download</Button>
                   </div>
                 </div>
@@ -290,7 +291,7 @@ export default function ParentsPage() {
         </div>
       </div>
 
-      <CtaBanner title="Ready to start your child's record?" body="Start with one note, one photo, one moment worth keeping." cta="Join Beta" href="/contact" />
+      <CtaBanner title="Ready to start your child's record?" body="Start with one note, one photo, one moment worth keeping." cta="Join Beta" />
     </>
   );
 }

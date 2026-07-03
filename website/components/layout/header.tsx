@@ -5,6 +5,7 @@ import { useState } from "react";
 import { List, X } from "@phosphor-icons/react";
 import { Button } from "@/components/ui/button";
 import { mobileNav, primaryNav } from "@/content/navigation";
+import { siteConfig } from "@/content/site";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -29,10 +30,10 @@ export function Header() {
           ))}
         </nav>
         <div className="hidden items-center gap-5 md:flex">
-          <Link href="#" className="text-[15px] text-ink-secondary transition hover:text-forest">
+          <Link href={siteConfig.signInUrl} className="text-[15px] text-ink-secondary transition hover:text-forest">
             Sign in
           </Link>
-          <Button href="/contact">Start free</Button>
+          <Button href={siteConfig.signUpUrl}>Start free</Button>
         </div>
         <button
           type="button"

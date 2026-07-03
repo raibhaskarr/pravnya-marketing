@@ -38,7 +38,7 @@ export default function DownloadPage() {
           <FeatureCard icon={Notification} title="Gentle reminders" body="Optional prompts to capture if you'd like them." />
         </div>
       </section>
-      <CtaBanner title="Your child's story deserves a record this good." cta="Join beta" href="/contact" />
+      <CtaBanner title="Your child's story deserves a record this good." cta="Join beta" />
     </>
   );
 }

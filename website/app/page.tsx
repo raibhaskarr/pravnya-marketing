@@ -129,7 +129,7 @@ export default function HomePage() {
           <div className="mt-10"><FaqAccordion items={homeFaq} /></div>
         </div>
       </section>
-      <CtaBanner title="Start your child's record today." body="Free to start. Takes two minutes. No credit card." cta="Join beta" href="/contact" />
+      <CtaBanner title="Start your child's record today." body="Free to start. Takes two minutes. No credit card." cta="Join beta" />
     </>
   );
 }

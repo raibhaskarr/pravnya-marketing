@@ -26,8 +26,7 @@ export default function BlogPage() {
           ))}
         </div>
       </section>
-      <CtaBanner title="Build your child's record." href="/contact" />
+      <CtaBanner title="Build your child's record." />
     </>
   );
 }
-

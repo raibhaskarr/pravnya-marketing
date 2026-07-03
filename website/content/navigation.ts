@@ -1,3 +1,5 @@
+import { siteConfig } from "@/content/site";
+
 export const primaryNav = [
   { label: "Features", href: "/features" },
   { label: "How it works", href: "/how-it-works" },
@@ -7,10 +9,10 @@ export const primaryNav = [
 ];
 
 export const mobileNav = [
-  { label: "Start free", href: "/contact" },
+  { label: "Start free", href: siteConfig.signUpUrl },
   ...primaryNav,
   { label: "Download", href: "/download" },
-  { label: "Sign in", href: "#" },
+  { label: "Sign in", href: siteConfig.signInUrl },
 ];
 
 export const footerLinks = {

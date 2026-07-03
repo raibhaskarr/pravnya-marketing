@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { PlaceholderFrame } from "@/components/ui/placeholder-frame";
+import { siteConfig } from "@/content/site";
 import { cn } from "@/lib/utils";
 
 type Props = {
@@ -22,7 +23,7 @@ export function Hero({
   title,
   body,
   primaryCta = "Start free",
-  primaryHref = "/contact",
+  primaryHref = siteConfig.signUpUrl,
   secondaryCta,
   secondaryHref = "/how-it-works",
   placeholder,

@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { siteConfig } from "@/content/site";
 import { cn } from "@/lib/utils";
 
 type Props = {
@@ -9,7 +10,7 @@ type Props = {
   variant?: "light" | "dark";
 };
 
-export function CtaBanner({ title, body, cta = "Start free", href = "/contact", variant = "light" }: Props) {
+export function CtaBanner({ title, body, cta = "Start free", href = siteConfig.signUpUrl, variant = "light" }: Props) {
   const dark = variant === "dark";
   return (
     <section className={cn("py-20 md:py-24", dark ? "bg-dark-surface" : "bg-forest-subtle")}>
@@ -27,4 +28,3 @@ export function CtaBanner({ title, body, cta = "Start free", href = "/contact", 
     </section>
   );
 }
-

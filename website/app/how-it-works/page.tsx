@@ -55,8 +55,7 @@ export default function HowItWorksPage() {
         </div>
       </section>
       <section className="bg-surface py-20"><FaqAccordion items={howFaq} /></section>
-      <CtaBanner title="Ready to start?" cta="Begin your record — free" href="/contact" />
+      <CtaBanner title="Ready to start?" cta="Begin your record — free" />
     </>
   );
 }
-

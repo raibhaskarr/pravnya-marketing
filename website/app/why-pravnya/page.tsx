@@ -48,8 +48,7 @@ export default function WhyPravnyaPage() {
           </div>
         </div>
       </section>
-      <CtaBanner title="Does this feel like the product you've been looking for?" cta="Start your record — it's free" href="/contact" />
+      <CtaBanner title="Does this feel like the product you've been looking for?" cta="Start your record — it's free" />
     </>
   );
 }
-
