@@ -7,6 +7,24 @@ export const faqItems = [
   },
   {
     category: "About Pravnya",
+    question: "Is Pravnya a diagnostic tool?",
+    answer:
+      "No. Pravnya is not a medical device or a diagnostic tool. It does not assess, evaluate, or diagnose your child. It helps you capture, organize, and understand what you've observed, and prepare for conversations with the professionals in your child's life.",
+  },
+  {
+    category: "About Pravnya",
+    question: "Can Pravnya replace my child's therapist or doctor?",
+    answer:
+      "No. Pravnya does not replace the qualified professionals in your child's life — it helps you arrive at those conversations more prepared. Decisions about diagnosis, treatment, and care always belong to you and your child's professional team.",
+  },
+  {
+    category: "About Pravnya",
+    question: "What should I do if I have urgent concerns about my child?",
+    answer:
+      "Contact your child's doctor, therapist, or another qualified professional directly, or your local emergency services if it's urgent. Pravnya is not equipped to respond to emergencies and should not be used in place of reaching out for help.",
+  },
+  {
+    category: "About Pravnya",
     question: "At what age is Pravnya most useful?",
     answer:
       "Most families begin using Pravnya between ages 1 and 8 — when developmental observation is most active and professional relationships are most complex. That said, the record is valuable at any age, and many families start later and backfill what they remember from earlier.",

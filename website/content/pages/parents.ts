@@ -265,6 +265,11 @@ export const parentsFaq = [
       "No. Pravnya is not a medical app and doesn't offer medical advice. For anything medical, please speak with a qualified professional — Pravnya can help you prepare for that conversation, but it doesn't replace it.",
   },
   {
+    question: "What should I do if I have an urgent concern about my child?",
+    answer:
+      "Contact your child's doctor, therapist, or another qualified professional directly, or your local emergency services if it's urgent. Pravnya is not equipped to respond to emergencies and shouldn't be used in place of reaching out for help.",
+  },
+  {
     question: "What devices does Pravnya work on?",
     answer: "Pravnya is available on iPhone, Android, and the web.",
   },
