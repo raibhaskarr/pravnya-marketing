@@ -17,6 +17,9 @@ import {
   UsersThree,
   VideoCamera,
 } from "@phosphor-icons/react/dist/ssr";
+import { sharedDisclaimerFaq } from "../shared-disclaimer-faq";
+
+const [diagnosticToolFaq, replacesProfessionalFaq, medicalAdviceFaq, urgentConcernFaq] = sharedDisclaimerFaq;
 
 export const parentsToc = [
   { id: "why-pravnya-exists", label: "Why Pravnya exists" },
@@ -255,20 +258,10 @@ export const parentsFaq = [
     question: "Does my child need a diagnosis to use Pravnya?",
     answer: "No. Pravnya is useful to any family paying attention to their child's development, with or without a diagnosis.",
   },
-  {
-    question: "Does Pravnya diagnose or assess my child?",
-    answer: "No. Pravnya does not assess, evaluate, or diagnose. It helps you understand your own observations — it doesn't interpret them clinically.",
-  },
-  {
-    question: "Can Pravnya give medical advice?",
-    answer:
-      "No. Pravnya is not a medical app and doesn't offer medical advice. For anything medical, please speak with a qualified professional — Pravnya can help you prepare for that conversation, but it doesn't replace it.",
-  },
-  {
-    question: "What should I do if I have an urgent concern about my child?",
-    answer:
-      "Contact your child's doctor, therapist, or another qualified professional directly, or your local emergency services if it's urgent. Pravnya is not equipped to respond to emergencies and shouldn't be used in place of reaching out for help.",
-  },
+  diagnosticToolFaq,
+  replacesProfessionalFaq,
+  medicalAdviceFaq,
+  urgentConcernFaq,
   {
     question: "What devices does Pravnya work on?",
     answer: "Pravnya is available on iPhone, Android, and the web.",

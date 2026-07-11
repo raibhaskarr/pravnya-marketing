@@ -1,3 +1,7 @@
+import { sharedDisclaimerFaq } from "./shared-disclaimer-faq";
+
+const [diagnosticToolFaq, replacesProfessionalFaq, medicalAdviceFaq, urgentConcernFaq] = sharedDisclaimerFaq;
+
 export const faqItems = [
   {
     category: "About Pravnya",
@@ -5,24 +9,9 @@ export const faqItems = [
     answer:
       "Pravnya is for any family that wants a better way to understand and document their child's development. Most of our families are navigating developmental differences, learning needs, or complex care systems. But the product is built for any parent who pays close attention to their child's development and wants a better record of what they've seen.",
   },
-  {
-    category: "About Pravnya",
-    question: "Is Pravnya a diagnostic tool?",
-    answer:
-      "No. Pravnya is not a medical device or a diagnostic tool. It does not assess, evaluate, or diagnose your child. It helps you capture, organize, and understand what you've observed, and prepare for conversations with the professionals in your child's life.",
-  },
-  {
-    category: "About Pravnya",
-    question: "Can Pravnya replace my child's therapist or doctor?",
-    answer:
-      "No. Pravnya does not replace the qualified professionals in your child's life — it helps you arrive at those conversations more prepared. Decisions about diagnosis, treatment, and care always belong to you and your child's professional team.",
-  },
-  {
-    category: "About Pravnya",
-    question: "What should I do if I have urgent concerns about my child?",
-    answer:
-      "Contact your child's doctor, therapist, or another qualified professional directly, or your local emergency services if it's urgent. Pravnya is not equipped to respond to emergencies and should not be used in place of reaching out for help.",
-  },
+  { category: "About Pravnya", ...diagnosticToolFaq },
+  { category: "About Pravnya", ...replacesProfessionalFaq },
+  { category: "About Pravnya", ...urgentConcernFaq },
   {
     category: "About Pravnya",
     question: "At what age is Pravnya most useful?",
@@ -52,12 +41,7 @@ export const faqItems = [
     answer:
       "Yes. You can upload PDFs, documents, and images directly to your record. Many families start by importing existing assessments and then adding new observations forward from there.",
   },
-  {
-    category: "The AI",
-    question: "Does Pravnya AI give medical advice?",
-    answer:
-      "No. Pravnya AI helps you understand what you've observed in your own record. It does not assess, diagnose, or give clinical recommendations. Every AI output is explicitly traced to observations in your record — it does not draw on general population databases to make claims about your child.",
-  },
+  { category: "The AI", ...medicalAdviceFaq },
   {
     category: "The AI",
     question: "How does the AI know what's in my record?",
