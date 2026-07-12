@@ -65,6 +65,12 @@ export const seo = {
     keywords: ["child data privacy", "family data", "developmental record security"],
     path: "/privacy",
   },
+  deleteAccount: {
+    title: "Delete Your Account — Pravnya",
+    description: "How to permanently delete your Pravnya account or a child's profile, and what happens to your data.",
+    keywords: ["delete Pravnya account", "delete my data", "account deletion"],
+    path: "/delete-account",
+  },
   terms: {
     title: "Terms of Service — Pravnya",
     description: "The terms that govern your use of Pravnya, including account eligibility, your family's data, and our AI features.",
