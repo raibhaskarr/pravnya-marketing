@@ -26,8 +26,8 @@ export default function DownloadPage() {
             platform="Android"
             details="For Android phones and tablets. Android 10 or later · 52 MB"
             href={siteConfig.googlePlayUrl}
-            badgeSrc="/assets/badges/badge-google-play.svg"
-            badgeAlt="Get it on Google Play placeholder badge"
+            badgeSrc="/assets/badges/badge-google-play.png"
+            badgeAlt="Get it on Google Play"
           />
         </div>
       </section>

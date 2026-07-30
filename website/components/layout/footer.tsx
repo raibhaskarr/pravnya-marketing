@@ -20,7 +20,7 @@ export function Footer() {
                 <img src="/assets/badges/badge-app-store.svg" alt="Download on the App Store placeholder badge" className="h-11 w-auto" />
               </Link>
               <Link href={siteConfig.googlePlayUrl} className="inline-flex rounded-md focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-dark-surface" aria-label="Get it on Google Play">
-                <img src="/assets/badges/badge-google-play.svg" alt="Get it on Google Play placeholder badge" className="h-11 w-auto" />
+                <img src="/assets/badges/badge-google-play.png" alt="Get it on Google Play" className="h-11 w-auto" />
               </Link>
             </div>
           </div>
