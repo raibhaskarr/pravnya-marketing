@@ -7,6 +7,6 @@ export const siteConfig = {
   signInUrl: "https://app.pravnya.com/?auth=login",
   signUpUrl: "https://app.pravnya.com/?auth=create",
   appStoreUrl: "#",
-  googlePlayUrl: "#",
+  googlePlayUrl: "https://play.google.com/store/apps/details?id=com.pravnya.app",
   betaUrl: "https://app.pravnya.com/?auth=create",
 };
