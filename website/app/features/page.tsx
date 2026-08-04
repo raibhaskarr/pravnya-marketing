@@ -1,69 +1,56 @@
 import type { Metadata } from "next";
-import { FeatureCard } from "@/components/ui/feature-card";
-import { ComparisonTable } from "@/components/ui/comparison-table";
+import { Camera, ChartLineUp, ClipboardText, Microphone, ShareNetwork } from "@phosphor-icons/react/dist/ssr";
 import { CtaBanner } from "@/components/ui/cta-banner";
-import { SectionHeading } from "@/components/ui/section-heading";
-import { PhoneMockup, TabletMockup } from "@/components/ui/screenshot-presentations";
 import { Hero } from "@/components/sections/hero";
-import { featureDetails } from "@/content/pages/shared";
+import { PhoneMockup, TabletMockup } from "@/components/ui/screenshot-presentations";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata("features");
 
 const features = [
   {
-    label: "Feature 01 — Capture",
-    title: "Record in moments. Not in marathons.",
-    body:
-      "A child says something new. They navigate something that was hard last week. You notice a pattern you've never seen before. These moments are small and fast. The record should match them. Pravnya capture takes under two minutes in any format — voice, text, photo, or document.",
-    placeholder: "App screenshot: Today",
+    icon: Microphone,
+    title: "Save an update",
+    body: "Type it, speak it, add a photo or upload a document. Most updates take less than two minutes.",
     src: "/assets/screenshots/screenshot-today.webp",
-    alt: "Pravnya Today screen ready for a real production screenshot",
-    caption: "Capture, review, and act from the daily home view.",
+    alt: "Pravnya Today screen for saving a child development update",
+    caption: "Capture an update before you forget it.",
     frame: "phone",
   },
   {
-    label: "Feature 02 — Organize",
-    title: "The record organizes itself. You live your life.",
-    body:
-      "Every observation you capture is automatically structured: tagged by developmental domain, connected to the professional or setting it relates to, and placed in the timeline where it belongs. You never sort. You never file. You never wonder where something went.",
-    placeholder: "App screenshot: Journey",
+    icon: Camera,
+    title: "Keep it organized",
+    body: "Pravnya puts moments, reports, goals and care-team updates into one searchable timeline.",
     src: "/assets/screenshots/screenshot-journey.webp",
-    alt: "Pravnya Journey screen ready for a real production screenshot",
-    caption: "A living timeline of moments, memories, and progress.",
+    alt: "Pravnya Journey timeline organizing child development updates",
+    caption: "A timeline that builds itself.",
     frame: "phone",
   },
   {
-    label: "Feature 03 — Understand",
-    title: "See what's changed. Not just what happened.",
-    body:
-      "The most valuable thing about a longitudinal record is not any single entry. It is the pattern that emerges across dozens of entries over months. Pravnya AI reads your record and surfaces those patterns, with every insight traced back to specific entries.",
-    placeholder: "App screenshot: Growth",
+    icon: ChartLineUp,
+    title: "See patterns",
+    body: "Understand what is changing across time, home, school and therapy—and where more information is needed.",
     src: "/assets/screenshots/screenshot-growth.webp",
-    alt: "Pravnya Growth screen ready for a real production screenshot",
-    caption: "Growth is shown through patterns over time, not comparison.",
+    alt: "Pravnya Growth screen showing progress patterns",
+    caption: "Progress shown as a story, not a score.",
     frame: "phone",
   },
   {
-    label: "Feature 04 — Prepare",
-    title: "Walk into every appointment ready.",
-    body:
-      "Before every meeting — therapy, school review, pediatrician, specialist — Pravnya generates a clear, organized summary of what you've observed in the relevant period. It covers what used to take an hour to reconstruct from memory.",
-    placeholder: "App screenshot: appointment brief",
+    icon: ClipboardText,
+    title: "Prepare for conversations",
+    body: "Create a clear summary for a school meeting, therapy review or appointment using the information already in your record.",
     src: "/assets/screenshots/screenshot-preparation-summary.webp",
-    alt: "Pravnya preparation summary ready for a real production screenshot",
-    caption: "Structured summaries help families walk into appointments prepared.",
+    alt: "Pravnya meeting preparation summary",
+    caption: "Walk in with the examples and questions you need.",
     frame: "tablet",
   },
   {
-    label: "Feature 05 — Share",
-    title: "You decide what goes where. And to whom.",
-    body:
-      "Pravnya makes sharing controlled, contextual, and consensual. You select what to include. You review what will be shared. You initiate the share. You can revoke access at any time.",
-    placeholder: "App screenshot: sharing permissions",
+    icon: ShareNetwork,
+    title: "Share safely",
+    body: "Choose what another caregiver or professional can see. Review it first and change access when you need to.",
     src: "/assets/screenshots/screenshot-sharing-permissions.webp",
-    alt: "Pravnya sharing permissions screen ready for a real production screenshot",
-    caption: "Parents decide what is shared, with whom, and for how long.",
+    alt: "Pravnya sharing permission controls",
+    caption: "You decide who sees what.",
     frame: "phone",
   },
 ];
@@ -71,40 +58,29 @@ const features = [
 export default function FeaturesPage() {
   return (
     <>
-      <Hero
-        centered
-        eyebrow="Five features. One purpose."
-        title="Built around what parents actually need."
-        body="Not what developers assumed they'd need. What years of listening to families showed us."
-      />
+      <Hero centered eyebrow="What you can do" title="Five useful things. No complicated setup." body="Pravnya helps you save what happened, understand what is changing and use that information when it matters." />
       <section className="pb-20">
-        <div className="container-standard grid gap-16">
-          {features.map((feature, index) => (
-            <article key={feature.title} className="grid items-center gap-10 lg:grid-cols-2">
-              <div className={index % 2 ? "lg:order-2" : ""}>
-                <p className="mb-4 text-[13px] font-semibold uppercase tracking-[0.08em] text-forest">{feature.label}</p>
-                <h2 className="font-display text-4xl leading-tight text-ink">{feature.title}</h2>
-                <p className="mt-5 text-lg leading-8 text-ink-secondary">{feature.body}</p>
-                <div className="mt-8 grid gap-4 sm:grid-cols-2">
-                  {featureDetails.slice(0, 4).map((detail) => <FeatureCard key={detail.label} icon={detail.icon} title={detail.label} body={detail.body} />)}
+        <div className="container-standard grid gap-12 md:gap-16">
+          {features.map((feature, index) => {
+            const Icon = feature.icon;
+            return (
+              <article key={feature.title} className="grid min-w-0 items-center gap-8 rounded-2xl border border-border bg-surface p-6 shadow-s md:p-10 lg:grid-cols-[1fr_0.72fr]">
+                <div className={index % 2 ? "lg:order-2" : ""}>
+                  <Icon className="h-9 w-9 text-forest" weight="duotone" aria-hidden />
+                  <h2 className="mt-5 font-display text-4xl leading-tight text-ink">{feature.title}</h2>
+                  <p className="mt-4 max-w-2xl text-lg leading-8 text-ink-secondary">{feature.body}</p>
                 </div>
-              </div>
-              {feature.frame === "tablet" ? (
-                <TabletMockup src={feature.src} label={feature.placeholder} alt={feature.alt} caption={feature.caption} />
-              ) : (
-                <PhoneMockup src={feature.src} label={feature.placeholder} alt={feature.alt} caption={feature.caption} />
-              )}
-            </article>
-          ))}
+                {feature.frame === "tablet" ? (
+                  <TabletMockup src={feature.src} label={feature.title} alt={feature.alt} caption={feature.caption} />
+                ) : (
+                  <PhoneMockup src={feature.src} label={feature.title} alt={feature.alt} caption={feature.caption} className="max-w-[270px]" />
+                )}
+              </article>
+            );
+          })}
         </div>
       </section>
-      <section className="bg-surface py-20">
-        <div className="container-standard">
-          <SectionHeading title="How Pravnya compares." />
-          <div className="mt-10"><ComparisonTable /></div>
-        </div>
-      </section>
-      <CtaBanner title="Every feature. One record. Your family." cta="Start free" />
+      <CtaBanner title="Start with one update." body="Pravnya becomes more useful as your family's record grows." cta="Start free" />
     </>
   );
 }

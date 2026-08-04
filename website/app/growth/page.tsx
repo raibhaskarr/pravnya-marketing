@@ -39,7 +39,7 @@ export default function GrowthPage() {
           </blockquote>
         </div>
       </section>
-      <CtaBanner title="Start building the record now. The compound starts today." cta="Begin for free" />
+      <CtaBanner title="Start building the record now. The compound starts today." cta="Start free" />
     </>
   );
 }

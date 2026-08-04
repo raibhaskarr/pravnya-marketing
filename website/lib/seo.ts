@@ -45,3 +45,28 @@ export function websiteJsonLd() {
     url: siteConfig.url,
   };
 }
+
+export function softwareApplicationJsonLd() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: "Pravnya",
+    applicationCategory: "LifestyleApplication",
+    operatingSystem: "Web, Android",
+    url: siteConfig.url,
+    description: siteConfig.description,
+    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+  };
+}
+
+export function faqJsonLd(items: Array<{ question: string; answer: string }>) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: items.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: { "@type": "Answer", text: item.answer },
+    })),
+  };
+}

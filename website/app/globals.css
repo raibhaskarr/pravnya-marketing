@@ -11,7 +11,8 @@
 }
 
 html {
-  overflow-x: hidden;
+  max-width: 100%;
+  overflow-x: clip;
   scroll-behavior: smooth;
 }
 
@@ -19,7 +20,16 @@ body {
   background: #f7f4ef;
   color: #1c1c1a;
   font-family: var(--font-plus-jakarta), system-ui, sans-serif;
-  overflow-x: hidden;
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+main, section, header, footer {
+  max-width: 100%;
+}
+
+img, svg, video {
+  max-width: 100%;
 }
 
 ::selection {

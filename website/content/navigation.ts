@@ -1,10 +1,9 @@
 import { siteConfig } from "@/content/site";
 
 export const primaryNav = [
-  { label: "Features", href: "/features" },
   { label: "How it works", href: "/how-it-works" },
-  { label: "Parents", href: "/parents" },
-  { label: "Why Pravnya", href: "/why-pravnya" },
+  { label: "What you can do", href: "/features" },
+  { label: "Safety & privacy", href: "/privacy" },
   { label: "About", href: "/about" },
 ];
 
@@ -17,13 +16,9 @@ export const mobileNav = [
 
 export const footerLinks = {
   Product: [
-    { label: "Features", href: "/features" },
     { label: "How it works", href: "/how-it-works" },
-    { label: "Parents", href: "/parents" },
-    { label: "Why Pravnya", href: "/why-pravnya" },
+    { label: "What you can do", href: "/features" },
     { label: "Ask Pravnya AI", href: "/ask-pravnya-ai" },
-    { label: "Growth", href: "/growth" },
-    { label: "Journey", href: "/journey" },
   ],
   Company: [
     { label: "About", href: "/about" },
@@ -31,12 +26,10 @@ export const footerLinks = {
     { label: "Download", href: "/download" },
     { label: "FAQ", href: "/faq" },
     { label: "Blog", href: "/blog" },
-    { label: "Careers", href: "/careers" },
   ],
   Legal: [
     { label: "Privacy policy", href: "/privacy" },
     { label: "Terms of service", href: "/terms" },
-    { label: "Data retention", href: "#" },
-    { label: "Accessibility", href: "#" },
+    { label: "Delete your data", href: "/delete-account" },
   ],
 };

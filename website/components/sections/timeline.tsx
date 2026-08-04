@@ -11,7 +11,7 @@ export function Timeline({ steps }: { steps: Step[] }) {
   return (
     <div className="relative mx-auto max-w-5xl">
       <div className="absolute bottom-0 left-5 top-0 w-px bg-border md:left-0 md:right-0 md:top-6 md:h-px md:w-auto" />
-      <div className="grid gap-8 md:grid-cols-5">
+      <div className="grid gap-8 md:grid-cols-3">
         {steps.map((step, index) => {
           const IconComponent = step.icon;
           return (
@@ -29,4 +29,3 @@ export function Timeline({ steps }: { steps: Step[] }) {
     </div>
   );
 }
-

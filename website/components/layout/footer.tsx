@@ -12,13 +12,8 @@ export function Footer() {
               <img src="/assets/brand/pravnya-logo-dark.svg" alt="" className="h-10 w-10 rounded-xl" aria-hidden="true" />
               <span className="font-display text-3xl font-semibold text-background">Pravnya</span>
             </Link>
-            <p className="mt-4 max-w-sm text-base leading-7 text-[#C8D4CC]">
-              The child development companion families trust.
-            </p>
+            <p className="mt-4 max-w-sm text-base leading-7 text-[#C8D4CC]">Your child's development, in one place.</p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link href={siteConfig.appStoreUrl} className="inline-flex rounded-md focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-dark-surface" aria-label="Download on the App Store">
-                <img src="/assets/badges/badge-app-store.svg" alt="Download on the App Store placeholder badge" className="h-11 w-auto" />
-              </Link>
               <Link href={siteConfig.googlePlayUrl} className="inline-flex rounded-md focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-dark-surface" aria-label="Get it on Google Play">
                 <img src="/assets/badges/badge-google-play.png" alt="Get it on Google Play" className="h-11 w-auto" />
               </Link>

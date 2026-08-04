@@ -16,7 +16,6 @@ import {
   Notepad,
   PlusCircle,
   SealCheck,
-  Share,
   ShieldCheck,
   Sparkle,
   Tag,
@@ -27,21 +26,18 @@ import {
 export const commitments = [
   {
     icon: BookOpen,
-    title: "Preserve the story",
-    body:
-      "Every observation, every milestone, every question you've been carrying — captured in one trusted place, organized automatically, searchable when you need it.",
+    title: "Keep everything together",
+    body: "Save notes, photos, voice updates, reports and goals in one private place.",
   },
   {
     icon: Sparkle,
-    title: "Create understanding",
-    body:
-      "Pravnya AI finds patterns in what you've recorded and helps you see what's changed over time — clearly, without clinical jargon, with every insight traced to your actual observations.",
+    title: "Understand what is changing",
+    body: "See useful patterns across home, school and therapy, with the supporting information shown.",
   },
   {
     icon: Handshake,
-    title: "Support better decisions",
-    body:
-      "Walk into every appointment, every school meeting, every conversation with a clear, organized account of what you've seen. Your knowledge, finally in a form that can be heard.",
+    title: "Be prepared",
+    body: "Create a clear summary for appointments, school meetings and care-team conversations.",
   },
 ];
 
@@ -49,27 +45,17 @@ export const workflowSteps = [
   {
     icon: PlusCircle,
     title: "Capture",
-    body: "Voice note, photo, quick text. Under two minutes. Any device.",
-  },
-  {
-    icon: FunnelSimple,
-    title: "Organize",
-    body: "Pravnya sorts and connects what you capture. No filing required.",
+    body: "Add a note, voice message, photo or document.",
   },
   {
     icon: ChartLineUp,
     title: "Understand",
-    body: "See patterns across time. Watch progress as a story, not a score.",
+    body: "Pravnya organizes updates and shows useful patterns.",
   },
   {
     icon: Notepad,
-    title: "Prepare",
-    body: "Generate an appointment brief in minutes, drawn from your actual record.",
-  },
-  {
-    icon: Share,
-    title: "Share",
-    body: "Send organized context to the professionals who need it. You control what they see.",
+    title: "Act",
+    body: "Prepare for a meeting, share an update or choose what to work on next.",
   },
 ];
 

@@ -19,9 +19,6 @@ export function DownloadCard({ platform, details, href, badgeSrc, badgeAlt }: Pr
           <img src={badgeSrc} alt={badgeAlt} className="h-12 w-auto" />
         </a>
       </div>
-      <div className="mt-8 hidden rounded-md border border-white/15 bg-white/5 p-4 text-center text-xs uppercase tracking-[0.08em] text-[#8FAF99] md:block">
-        QR code placeholder
-      </div>
     </article>
   );
 }

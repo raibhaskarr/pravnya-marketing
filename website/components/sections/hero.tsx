@@ -33,7 +33,7 @@ export function Hero({
   centered = false,
 }: Props) {
   return (
-    <section className="overflow-hidden py-20 md:py-28">
+    <section className="w-full max-w-full overflow-hidden py-14 md:py-24">
       <div className={cn("container-standard grid items-center gap-12", centered ? "text-center" : "lg:grid-cols-[1.08fr_0.92fr]")}>
         <div className={cn("min-w-0", centered ? "mx-auto max-w-4xl" : "max-w-3xl")}>
           {eyebrow ? (
@@ -41,14 +41,14 @@ export function Hero({
               {eyebrow}
             </p>
           ) : null}
-          <h1 className="max-w-full break-words font-display text-[40px] font-semibold leading-[1.08] text-ink md:text-[64px] lg:text-[72px]">
+          <h1 className="max-w-full break-words font-display text-[36px] font-semibold leading-[1.08] text-ink sm:text-[44px] md:text-[58px] lg:text-[68px]">
             {title}
           </h1>
           {body ? <p className={cn("mt-6 max-w-full break-words text-lg leading-8 text-ink-secondary md:text-xl md:leading-9", centered && "mx-auto max-w-3xl")}>{body}</p> : null}
-          <div className={cn("mt-8 flex max-w-full flex-col gap-4 sm:flex-row", centered && "justify-center")}>
-            <Button href={primaryHref}>{primaryCta}</Button>
+          <div className={cn("mt-8 flex w-full max-w-full flex-col gap-4 sm:w-auto sm:flex-row", centered && "justify-center")}>
+            <Button href={primaryHref} className="w-full sm:w-auto">{primaryCta}</Button>
             {secondaryCta ? (
-              <Button href={secondaryHref} variant="ghost">
+              <Button href={secondaryHref} variant="ghost" className="w-full sm:w-auto">
                 {secondaryCta}
               </Button>
             ) : null}

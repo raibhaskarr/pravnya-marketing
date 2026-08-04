@@ -1,19 +1,19 @@
 export const seo = {
   home: {
-    title: "Pravnya — Child development records for parents who are paying attention",
-    description: "Capture, organize, and understand your child's developmental story. One trusted record.",
-    keywords: ["child development app", "developmental record", "parent observation app"],
+    title: "Pravnya: Child Development Tracking and AI Companion for Parents",
+    description: "Keep child development notes, school and therapy updates, goals and reports in one private place. See patterns and prepare for meetings with Pravnya.",
+    keywords: ["child development tracking app", "parent observation app", "therapy and school updates", "AI companion for parents"],
     path: "/",
   },
   features: {
-    title: "Pravnya Features — Capture, organize, understand",
-    description: "Five features that together help parents build a complete longitudinal developmental record",
+    title: "What You Can Do with Pravnya",
+    description: "Save child development updates, see patterns, prepare for meetings and share safely.",
     keywords: ["child development features", "observation tool", "appointment preparation"],
     path: "/features",
   },
   howItWorks: {
-    title: "How Pravnya Works — Five steps",
-    description: "Learn how Pravnya helps parents capture, organize, review, prepare, and share",
+    title: "How Pravnya Works — Capture, Understand, Act",
+    description: "See how Pravnya turns everyday child development updates into a useful, private family record.",
     keywords: ["how to organize child development records", "parent record app"],
     path: "/how-it-works",
   },

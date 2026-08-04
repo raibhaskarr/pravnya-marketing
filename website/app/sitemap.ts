@@ -5,9 +5,8 @@ import { seo } from "@/content/pages/seo";
 export default function sitemap(): MetadataRoute.Sitemap {
   return Object.values(seo).map((page) => ({
     url: `${siteConfig.url}${page.path}`,
-    lastModified: new Date("2026-07-01"),
+    lastModified: new Date("2026-08-04"),
     changeFrequency: "monthly",
     priority: page.path === "/" ? 1 : 0.8,
   }));
 }
-
