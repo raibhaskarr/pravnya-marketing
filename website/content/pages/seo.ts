@@ -23,6 +23,12 @@ export const seo = {
     keywords: ["responsible AI child development", "parent confidence gap"],
     path: "/why-pravnya",
   },
+  partners: {
+    title: "Partner with Pravnya — For Therapy Centres & Practices",
+    description: "Give your team one place to track the children you support, and help the families you see keep that same record at home. Partner with Pravnya.",
+    keywords: ["therapy centre software", "Pravnya for centres", "parent therapist collaboration tool", "partner with Pravnya"],
+    path: "/partners",
+  },
   parents: {
     title: "Pravnya for Parents — Every step forward matters",
     description: "A parent-friendly guide to Pravnya: what it is, how it helps families, responsible AI, privacy, beta access, and frequently asked questions.",

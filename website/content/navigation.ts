@@ -5,6 +5,7 @@ export const primaryNav = [
   { label: "What you can do", href: "/features" },
   { label: "Safety & privacy", href: "/privacy" },
   { label: "About", href: "/about" },
+  { label: "For centres", href: "/partners" },
 ];
 
 export const mobileNav = [
@@ -22,6 +23,7 @@ export const footerLinks = {
   ],
   Company: [
     { label: "About", href: "/about" },
+    { label: "For centres", href: "/partners" },
     { label: "Contact", href: "/contact" },
     { label: "Download", href: "/download" },
     { label: "FAQ", href: "/faq" },
