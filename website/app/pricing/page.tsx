@@ -6,8 +6,8 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata: Metadata = pageMetadata("pricing");
 
 const tiers = [
-  ["Record", "Free tier", "Unlimited capture, timeline and search, basic monthly review."],
-  ["Understand", "Premium tier", "AI pattern recognition, appointment preparation, professional sharing, and exports."],
+  ["Record", "Free tier", "Unlimited capture."],
+  ["Understand", "Premium tier", "AI pattern recognition."],
   ["Professional", "Coming later", "For therapists, schools, and clinics. Professional intake from family records."],
 ];
 

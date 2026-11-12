@@ -18,7 +18,7 @@ export const metadata: Metadata = pageMetadata("home");
 const homeFaq = [
   {
     question: "Who is Pravnya for?",
-    answer: "Pravnya is for parents who want one clear place for child development notes, school and therapy updates, goals, reports and questions. A diagnosis is not required.",
+    answer: "Pravnya is for parents who want one clear place for their child's goals, therapy and school updates, and what is happening at home. A diagnosis is not required.",
   },
   {
     question: "Is Pravnya a medical or diagnostic tool?",
@@ -26,11 +26,11 @@ const homeFaq = [
   },
   {
     question: "How does Pravnya use AI?",
-    answer: "Pravnya uses your record to organize updates, surface possible patterns and prepare summaries. It shows what an insight is based on and says when there is not enough information.",
+    answer: "Pravnya's AI reads your notes, photos of notes, voice notes and your child's IEP, and proposes goal entries for you to review. Each suggestion shows what it is based on and how confident the AI is, and nothing is saved until you approve it. Ask Pravnya answers questions using your child's own goals, and says so when it can't help.",
   },
   {
     question: "Who can see my child's information?",
-    answer: "You control access. Pravnya does not sell your record or use it to train AI models. You can export or delete your data.",
+    answer: "You decide who joins your child's care team, and you can remove anyone at any time. Pravnya does not sell your record or use it to train AI models. You can delete your account.",
   },
 ];
 
@@ -49,10 +49,10 @@ export default function HomePage() {
               Your child's development, in one place
             </p>
             <h1 className="max-w-full break-words font-display text-[36px] font-semibold leading-[1.08] text-ink sm:text-[44px] md:text-[58px] lg:text-[64px]">
-              Remember what happened. See what's changing. Be ready for every conversation.
+              Log what happened. See how they're growing. Know what to try next.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-ink-secondary">
-              Save everyday moments, school and therapy updates, goals, reports and questions. Pravnya organizes them and helps you understand what may matter.
+              Write, photograph or speak a quick note after therapy or at home. Pravnya's AI matches it to your child's goals, you approve what's right, and progress builds up against your child's own history.
             </p>
             <div className="mt-8 flex w-full flex-col gap-4 sm:w-auto sm:flex-row">
               <Button href={siteConfig.signUpUrl} className="w-full sm:w-auto">Start free</Button>
@@ -61,10 +61,10 @@ export default function HomePage() {
             <p className="mt-5 text-sm text-ink-tertiary">Free to start · No credit card · Private by design</p>
           </div>
           <PhoneMockup
-            src="/assets/screenshots/screenshot-today.webp"
-            label="Pravnya Today screen"
-            alt="Pravnya Today screen showing one clear place for a parent's daily updates and actions"
-            caption="One clear place to see what matters today."
+            src="/assets/screenshots/screenshot-home.webp"
+            label="Pravnya Home screen"
+            alt="Pravnya Home screen showing a milestone card, a growth highlight, a Try this at home suggestion and the bottom tab bar"
+            caption="Milestones, growth highlights and ideas to try at home, on one Home screen."
             className="max-w-[330px]"
           />
         </div>
@@ -83,7 +83,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Pravnya brings it together"
             title="Important information is scattered everywhere."
-            body="A voice note after therapy. A school message you need later. A small change you want to remember. Keep it in one useful place instead of rebuilding the story from memory."
+            body="A voice note after therapy. A worksheet sent home. A goal from the IEP you want to keep an eye on. Keep it in one useful place instead of rebuilding the story from memory."
           />
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             {commitments.map((item) => <FeatureCard key={item.title} {...item} />)}
@@ -93,7 +93,7 @@ export default function HomePage() {
 
       <section id="how-it-works" className="scroll-mt-24 bg-sage-subtle py-16 md:py-20">
         <div className="container-standard">
-          <SectionHeading eyebrow="How it works" title="Capture. Understand. Act." body="Start with one update. Pravnya makes it useful over time." />
+          <SectionHeading eyebrow="How it works" title="Log. Review. Grow." body="Start with one note. Pravnya makes it useful over time." />
           <div className="mt-12"><Timeline steps={workflowSteps} /></div>
           <div className="mt-10 text-center">
             <Link href="/how-it-works" className="inline-flex items-center gap-2 font-semibold text-forest hover:text-forest-dark">
@@ -106,20 +106,18 @@ export default function HomePage() {
       <section className="py-16 md:py-20">
         <div className="container-standard grid items-center gap-10 lg:grid-cols-[0.85fr_1.15fr]">
           <div>
-            <p className="text-[13px] font-semibold uppercase tracking-[0.08em] text-forest">Meet your AI Companion</p>
-            <h2 className="mt-4 font-display text-4xl leading-tight text-ink">One useful insight. Its evidence. One next step.</h2>
+            <p className="text-[13px] font-semibold uppercase tracking-[0.08em] text-forest">Meet Pravnya, your AI companion</p>
+            <h2 className="mt-4 font-display text-4xl leading-tight text-ink">Ask a question, or tell it what happened.</h2>
             <p className="mt-5 text-lg leading-8 text-ink-secondary">
-              Pravnya helps you notice what may matter, choose one weekly focus and prepare for school or therapy conversations. It explains what each insight is based on and says when information is missing.
+              Pravnya answers using your child's own goals. If you're describing something that happened, it takes you to logging with your words already filled in — and nothing is saved until you approve it. When it can't help, it says so.
             </p>
           </div>
           <div className="rounded-2xl border border-border bg-surface p-6 shadow-l md:p-8">
-            <p className="text-sm font-semibold text-forest">This week, Pravnya noticed</p>
-            <p className="mt-3 text-xl font-semibold leading-8 text-ink">Visual preparation helped with two recent transitions.</p>
-            <p className="mt-3 leading-7 text-ink-secondary">There is not enough school information yet to know whether this is happening there too.</p>
+            <p className="text-sm font-semibold text-forest">After a therapy session, on Home</p>
+            <p className="mt-3 text-xl font-semibold leading-8 text-ink">Looks like Aarav had Speech therapy today — want to jot down how it went?</p>
+            <p className="mt-3 leading-7 text-ink-secondary">Write it, photograph a note or record a voice note. Pravnya matches it to Aarav's goals, and you approve what's saved.</p>
             <div className="mt-6 flex flex-wrap gap-3 text-sm font-semibold text-forest">
-              <span className="rounded-full bg-forest-subtle px-4 py-2">Why am I seeing this?</span>
-              <span className="rounded-full bg-forest-subtle px-4 py-2">Add a school update</span>
-              <span className="rounded-full bg-forest-subtle px-4 py-2">Choose this week's focus</span>
+              <span className="rounded-full bg-forest-subtle px-4 py-2">Log it</span>
             </div>
           </div>
         </div>
@@ -134,8 +132,8 @@ export default function HomePage() {
           <div className="grid gap-4 text-[#DCE8E0]">
             <p>We do not sell your data.</p>
             <p>We do not use your record to train AI models.</p>
-            <p>You decide who can see or contribute.</p>
-            <p>You can export or delete your record.</p>
+            <p>You decide who joins your child's care team.</p>
+            <p>You can delete your account.</p>
             <Link href="/privacy" className="mt-2 font-semibold text-white underline underline-offset-4">Read our privacy promise</Link>
           </div>
         </div>

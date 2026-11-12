@@ -34,12 +34,12 @@ export default function DownloadPage() {
       </section>
       <section className="bg-surface py-20">
         <div className="container-standard grid gap-6 md:grid-cols-3">
-          <FeatureCard icon={DeviceMobile} title="Made for everyday use" body="Capture an update while it is still fresh." />
+          <FeatureCard icon={DeviceMobile} title="Made for everyday use" body="Log a session while it is still fresh." />
           <FeatureCard icon={Globe} title="Use it across devices" body="Open the same private record from your browser." />
-          <FeatureCard icon={Notification} title="Gentle reminders" body="Optional prompts to capture if you'd like them." />
+          <FeatureCard icon={Notification} title="Gentle prompts" body="After a scheduled therapy session, Home offers to help you jot down how it went." />
         </div>
       </section>
-      <CtaBanner title="Start with one update." body="Free to start. No credit card." cta="Start free" />
+      <CtaBanner title="Start with one note." body="Free to start. No credit card." cta="Start free" />
     </>
   );
 }
