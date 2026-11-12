@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
 import { siteConfig } from "@/content/site";
-import { seo, type SeoKey } from "@/content/pages/seo";
+import { seo, type SeoKey, type SeoPage } from "@/content/pages/seo";
 
 export function pageMetadata(key: SeoKey): Metadata {
-  const data = seo[key];
+  const data: SeoPage = seo[key];
   const url = new URL(data.path, siteConfig.url).toString();
 
   return {
-    title: data.title,
+    // The home page title already carries the brand, so skip the layout's " | Pravnya" suffix.
+    title: data.path === "/" ? { absolute: data.title } : data.title,
     description: data.description,
-    keywords: [...data.keywords],
     alternates: { canonical: url },
+    ...(data.noindex ? { robots: { index: false, follow: true } } : {}),
     openGraph: {
       title: data.title,
       description: data.description,
@@ -33,7 +34,14 @@ export function organizationJsonLd() {
     "@type": "Organization",
     name: "Pravnya",
     url: siteConfig.url,
-    logo: `${siteConfig.url}/assets/brand/pravnya-logo-light.svg`,
+    // Google wants a raster logo of at least 112×112.
+    logo: `${siteConfig.url}/assets/favicons/favicon-512.png`,
+    email: "support@pravnya.com",
+    areaServed: [
+      { "@type": "Country", name: "India" },
+      { "@type": "Country", name: "United Arab Emirates" },
+    ],
+    sameAs: [siteConfig.googlePlayUrl],
   };
 }
 
@@ -47,16 +55,31 @@ export function websiteJsonLd() {
 }
 
 export function softwareApplicationJsonLd() {
-  return {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    name: "Pravnya",
-    applicationCategory: "LifestyleApplication",
-    operatingSystem: "Web, Android",
-    url: siteConfig.url,
-    description: siteConfig.description,
-    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-  };
+  const offers = { "@type": "Offer", price: "0", priceCurrency: "INR" };
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      name: "Pravnya",
+      applicationCategory: "LifestyleApplication",
+      browserRequirements: "Requires a modern web browser",
+      operatingSystem: "Any",
+      url: siteConfig.appUrl,
+      description: siteConfig.description,
+      offers,
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      name: "Pravnya",
+      applicationCategory: "LifestyleApplication",
+      operatingSystem: "Android 10 or later",
+      installUrl: siteConfig.googlePlayUrl,
+      url: siteConfig.googlePlayUrl,
+      description: siteConfig.description,
+      offers,
+    },
+  ];
 }
 
 export function faqJsonLd(items: Array<{ question: string; answer: string }>) {
