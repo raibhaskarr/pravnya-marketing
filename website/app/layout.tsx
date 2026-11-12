@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
-import { AnalyticsPlaceholder } from "@/components/seo/analytics-placeholder";
+import { Analytics } from "@/components/seo/analytics";
 import { CookieConsentPlaceholder } from "@/components/seo/cookie-consent-placeholder";
 import { siteConfig } from "@/content/site";
 import "./globals.css";
@@ -27,6 +27,10 @@ export const metadata: Metadata = {
     description: siteConfig.description,
     images: [siteConfig.ogImage],
   },
+  // Optional: Search Console HTML-tag verification. DNS verification in Cloudflare needs nothing here.
+  ...(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+    ? { verification: { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION } }
+    : {}),
   icons: {
     icon: [
       { url: "/assets/favicons/favicon-192.png", sizes: "192x192", type: "image/png" },
@@ -46,7 +50,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <Header />
         <main id="main">{children}</main>
         <Footer />
-        <AnalyticsPlaceholder />
+        <Analytics />
         <CookieConsentPlaceholder />
       </body>
     </html>

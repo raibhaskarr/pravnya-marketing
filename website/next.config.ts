@@ -7,6 +7,14 @@ const nextConfig: NextConfig = {
   outputFileTracingRoot: path.join(process.cwd()),
   async redirects() {
     return [
+      // One address for the site: www.pravnya.com → pravnya.com (canonical links already use pravnya.com).
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.pravnya.com" }],
+        destination: "https://pravnya.com/:path*",
+        permanent: true,
+      },
+      { source: "/ask-pravnya", destination: "/ask-pravnya-ai", permanent: true },
       // The Journey timeline is no longer part of the Pravnya app.
       { source: "/journey", destination: "/features", permanent: true },
     ];
