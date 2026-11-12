@@ -18,11 +18,6 @@ export const seo = {
     description: "See how Pravnya turns a quick note, photo or voice note into goal entries you approve, so your child's progress builds up over time.",
     path: "/how-it-works",
   },
-  whyPravnya: {
-    title: "Why We Built a Child Development App",
-    description: "Why we built Pravnya, what we believe about children's development, and why AI that explains itself matters to families.",
-    path: "/why-pravnya",
-  },
   partners: {
     title: "Software for Therapy Centres and Their Families",
     description: "Give your therapy centre one place to track the children you support, and help families keep the same record at home. Partner with Pravnya.",
@@ -50,8 +45,8 @@ export const seo = {
     path: "/pricing",
   },
   about: {
-    title: "About Us",
-    description: "Why we built Pravnya, the beliefs behind it, and how we help parents keep their child's development story in one private place.",
+    title: "About Us: Why We Built Pravnya",
+    description: "Why we built Pravnya, the beliefs behind it, and how we keep AI honest and your child's development record private and in your hands.",
     path: "/about",
   },
   privacy: {
@@ -89,8 +84,7 @@ export const seo = {
     title: "Blog",
     description: "Careful, practical writing for parents on child development, therapy, IEPs and keeping a useful record of your child's progress.",
     path: "/blog",
-    // "Coming soon" page: kept out of search results until it has articles.
-    noindex: true,
+    sources: ["content/blog"],
   },
   careers: {
     title: "Careers",

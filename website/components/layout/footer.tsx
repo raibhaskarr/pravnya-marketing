@@ -19,7 +19,7 @@ export function Footer() {
               </Link>
             </div>
           </div>
-          <div className="grid gap-8 sm:grid-cols-3">
+          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {Object.entries(footerLinks).map(([group, links]) => (
               <div key={group}>
                 <h2 className="text-sm font-semibold uppercase tracking-[0.08em] text-[#8FAF99]">{group}</h2>
