@@ -46,7 +46,7 @@ export default function HomePage() {
         <div className="container-standard grid min-w-0 items-center gap-12 lg:grid-cols-[1.05fr_0.95fr]">
           <div className="min-w-0">
             <p className="mb-5 inline-flex border-b border-forest pb-2 text-[13px] font-semibold uppercase tracking-[0.08em] text-forest">
-              Your child's development, in one place
+              Child development &amp; therapy tracker for parents
             </p>
             <h1 className="max-w-full break-words font-display text-[36px] font-semibold leading-[1.08] text-ink sm:text-[44px] md:text-[58px] lg:text-[64px]">
               Log what happened. See how they're growing. Know what to try next.

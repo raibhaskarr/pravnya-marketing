@@ -1,18 +1,15 @@
 import { execFileSync } from "node:child_process";
-import path from "node:path";
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/content/site";
 import { seo, type SeoPage } from "@/content/pages/seo";
+import { landingPages } from "@/content/landing";
+import { getAllPosts } from "@/lib/blog";
 
-// Last-modified comes from git: the latest commit touching the page's folder or its content files.
+// Last-modified comes from git: the latest commit touching the given files.
 // Falls back to the build time if git isn't available.
-function lastModified(page: SeoPage): Date {
-  const pageDir = page.path === "/" ? "app/page.tsx" : `app${page.path}`;
+function gitDate(files: string[]): Date {
   try {
-    const out = execFileSync("git", ["log", "-1", "--format=%cI", "--", pageDir, ...(page.sources ?? [])], {
-      cwd: path.join(process.cwd()),
-      encoding: "utf8",
-    }).trim();
+    const out = execFileSync("git", ["log", "-1", "--format=%cI", "--", ...files], { encoding: "utf8" }).trim();
     if (out) return new Date(out);
   } catch {
     // not a git checkout
@@ -20,11 +17,27 @@ function lastModified(page: SeoPage): Date {
   return new Date();
 }
 
+const url = (path: string) => (path === "/" ? siteConfig.url : `${siteConfig.url}${path}`);
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  return Object.values(seo as Record<string, SeoPage>)
-    .filter((page) => !page.noindex)
+  const posts = getAllPosts();
+
+  const pages = Object.values(seo as Record<string, SeoPage>)
+    .filter((page) => !page.noindex && !(page.path === "/blog" && posts.length === 0))
     .map((page) => ({
-      url: page.path === "/" ? siteConfig.url : `${siteConfig.url}${page.path}`,
-      lastModified: lastModified(page),
+      url: url(page.path),
+      lastModified: gitDate([page.path === "/" ? "app/page.tsx" : `app${page.path}`, ...(page.sources ?? [])]),
     }));
+
+  const landing = landingPages.map((page) => ({
+    url: url(`/${page.slug}`),
+    lastModified: gitDate([`content/landing/${page.slug}.ts`, "components/sections/landing-page.tsx"]),
+  }));
+
+  const articles = posts.map((post) => ({
+    url: url(`/blog/${post.slug}`),
+    lastModified: new Date(post.updated ?? post.date),
+  }));
+
+  return [...pages, ...landing, ...articles];
 }

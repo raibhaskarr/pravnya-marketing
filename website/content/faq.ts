@@ -22,7 +22,7 @@ export const faqItems = [
     category: "About Pravnya",
     question: "Is Pravnya available in India only?",
     answer:
-      "Pravnya launched in India and is available globally via the web app. There is also an Android app.",
+      "Pravnya launched in India and is also available to families in the UAE. The web app works in any browser, anywhere, and there is also an Android app on Google Play.",
   },
   {
     category: "The record",

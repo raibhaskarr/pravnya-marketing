@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { ContactForm } from "@/components/forms/contact-form";
 import { Hero } from "@/components/sections/hero";
 import { pageMetadata } from "@/lib/seo";
+import { company } from "@/content/company";
 
 export const metadata: Metadata = pageMetadata("contact");
 
@@ -19,6 +20,12 @@ export default function ContactPage() {
               <p>Press: press@pravnya.com</p>
               <p>Partnerships: partnerships@pravnya.com</p>
             </div>
+            {company.legalName || company.address?.length ? (
+              <address className="mt-6 not-italic">
+                {company.legalName ? <p className="font-semibold text-ink">{company.legalName}</p> : null}
+                {company.address?.map((line) => <p key={line}>{line}</p>)}
+              </address>
+            ) : null}
           </div>
         </div>
       </section>

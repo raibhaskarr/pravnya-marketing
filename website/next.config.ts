@@ -15,6 +15,8 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       { source: "/ask-pravnya", destination: "/ask-pravnya-ai", permanent: true },
+      // "Why Pravnya" was merged into About.
+      { source: "/why-pravnya", destination: "/about", permanent: true },
       // The Journey timeline is no longer part of the Pravnya app.
       { source: "/journey", destination: "/features", permanent: true },
     ];

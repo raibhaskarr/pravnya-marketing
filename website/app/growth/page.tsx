@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Hero } from "@/components/sections/hero";
 import { CtaBanner } from "@/components/ui/cta-banner";
 import { SectionHeading } from "@/components/ui/section-heading";
+import Link from "next/link";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata("growth");
@@ -37,6 +38,21 @@ export default function GrowthPage() {
           <blockquote className="mx-auto max-w-4xl border-l-4 border-gold bg-gold-subtle p-8 font-display text-2xl leading-tight text-ink">
             "Pravnya was the first tool that showed me what she had actually done — what she had learned, what had changed, what she was working toward."
           </blockquote>
+        </div>
+      </section>
+      <section className="bg-sage-subtle py-16 md:py-20">
+        <div className="container-standard max-w-3xl">
+          <h2 className="font-display text-3xl text-ink md:text-4xl">What you see on Growth.</h2>
+          <ul className="mt-6 list-disc space-y-3 pl-6 text-lg leading-8 text-ink-secondary">
+            <li><strong className="text-ink">How each goal is going, in plain words</strong>: &ldquo;Getting stronger&rdquo;, &ldquo;Still building&rdquo; or &ldquo;Steady&rdquo;, based on your child&apos;s own entries.</li>
+            <li><strong className="text-ink">The last five tries at a glance</strong>: a coloured bar from needing help to doing it independently.</li>
+            <li><strong className="text-ink">Milestones</strong>: a first success, or a skill showing up at home for the first time.</li>
+            <li><strong className="text-ink">Centre and home together</strong>: entries from therapy and from home sit side by side, so you can see where a skill is carrying over.</li>
+          </ul>
+          <p className="mt-6 text-lg leading-8 text-ink-secondary">
+            Growth builds from the entries you approve after a session or a moment at home. When a skill shows up at the centre but not yet at home, <Link href="/therapy-activities-at-home" className="font-semibold text-forest underline underline-offset-4">Try this at home</Link> suggests it. For speech goals specifically, see <Link href="/speech-therapy-progress-tracker" className="font-semibold text-forest underline underline-offset-4">tracking speech therapy progress</Link>.
+          </p>
+          <p className="mt-4 text-ink-secondary">Growth describes progress; it does not assess or diagnose. Your child&apos;s therapist is the right person for clinical questions.</p>
         </div>
       </section>
       <CtaBanner title="Start building the record now. The compound starts today." cta="Start free" />
