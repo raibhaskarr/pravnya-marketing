@@ -21,6 +21,7 @@ export const company: {
   /** Company social profiles (LinkedIn, Instagram…), added to structured data. */
   profiles: string[];
 } = {
+  legalName: "Pravnix Labs Pvt Ltd",
   team: [],
   advisors: [],
   profiles: [],
