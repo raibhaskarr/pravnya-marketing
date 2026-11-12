@@ -31,7 +31,7 @@ export default function PrivacyPage() {
             <h2 className="font-display text-4xl">What happens to your data — specifically.</h2>
             <div className="mt-8 space-y-5 text-base leading-7 text-ink-secondary">
               <p>Your record is stored on secure servers. All data is encrypted at rest and in transit.</p>
-              <p>The AI models that generate summaries are trained on general datasets, not on individual family records.</p>
+              <p>The AI models Pravnya uses are trained on general datasets, not on individual family records.</p>
               <p>Export your complete record or delete a child&apos;s profile any time, right from the app — Data and Export on a child&apos;s profile, or Danger Zone settings to delete. You can also email <a href="mailto:support@pravnya.com" className="text-forest underline">support@pravnya.com</a> if you&apos;d rather we handle a request for you.</p>
               <p>Pravnya does not use cookies or any third-party tracking or analytics technology. Sign-in uses a token stored on your device, not a cookie. If that changes in the future, we&apos;ll update this page and give you an opt-out before it does.</p>
               <p>Your data is stored and processed in the United States today, regardless of where your family is located.</p>
@@ -60,7 +60,7 @@ export default function PrivacyPage() {
               </thead>
               <tbody className="divide-y divide-forest/10">
                 {[
-                  ["Anthropic", "Notes, observations, and images you or Pravnya's AI generate — never used to train their models.", "Ask Pravnya, summaries, and report generation"],
+                  ["Anthropic", "Notes, observations, and images you or Pravnya's AI generate — never used to train their models.", "Ask Pravnya and other AI features"],
                   ["Google (Gemini, Vertex AI, Cloud Storage)", "Same as above, plus voice recordings and photos/videos you upload.", "AI features and secure media storage"],
                   ["MSG91", "Your phone number and one-time verification codes only.", "Phone verification"],
                   ["Google Workspace", "Names and email addresses for messages Pravnya sends on your behalf.", "Account and invitation emails"],

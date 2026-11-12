@@ -4,7 +4,7 @@ import { AiExplanationCard } from "@/components/ui/ai-explanation-card";
 import { CtaBanner } from "@/components/ui/cta-banner";
 import { FeatureCard } from "@/components/ui/feature-card";
 import { SectionHeading } from "@/components/ui/section-heading";
-import { AnnotatedScreenshot } from "@/components/ui/screenshot-presentations";
+import { TwoPhoneComparison } from "@/components/ui/screenshot-presentations";
 import { aiCards, aiPrinciples } from "@/content/pages/shared";
 import { pageMetadata } from "@/lib/seo";
 
@@ -16,8 +16,8 @@ export default function AskPravnyaAiPage() {
       <Hero
         centered
         eyebrow="Pravnya AI"
-        title="AI that works from your record, not from the internet."
-        body="Pravnya AI doesn't give you generic advice about child development. It reads your specific record and helps you understand what you've been observing — honestly, carefully, with every insight traced to evidence."
+        title="AI that works from your child's goals, not from the internet."
+        body="Pravnya AI doesn't give you generic advice about child development. It works from your child's own goals and the notes you log — and it only proposes. You review and approve before anything is saved."
       />
       <section className="pb-20">
         <div className="container-standard">
@@ -39,13 +39,24 @@ export default function AskPravnyaAiPage() {
       </section>
       <section className="py-20">
         <div className="container-standard grid items-center gap-10 lg:grid-cols-2">
-          <SectionHeading align="left" title="What it looks like in practice." body="A pattern card shows the summary, the supporting entries, a confidence indicator, and a practical note about how to use the insight." />
-          <AnnotatedScreenshot
-            src="/assets/screenshots/screenshot-ask-pravnya.webp"
-            label="App screenshot: Ask Pravnya"
-            alt="Ask Pravnya AI screen showing evidence, confidence, and a careful summary"
-            caption="Evidence-traced AI summary with confidence indicator."
-            callouts={["Sources visible", "Confidence stated", "Uncertainty named"]}
+          <SectionHeading
+            align="left"
+            title="What it looks like in practice."
+            body="After you log a session, the AI review shows each proposed entry with the words it was based on and how confident the AI is. Uncheck anything that isn't right, then add the rest. On Home, ask Pravnya a question and it answers using your child's goals."
+          />
+          <TwoPhoneComparison
+            left={{
+              src: "/assets/screenshots/screenshot-ai-review.webp",
+              label: "App screenshot: AI review",
+              alt: "Pravnya AI review screen showing Found 2 pieces of evidence, with two proposed goal entries and an Add 2 approved button",
+              caption: "Review each suggestion before it is saved.",
+            }}
+            right={{
+              src: "/assets/screenshots/screenshot-ask-pravnya.webp",
+              label: "App screenshot: Ask Pravnya",
+              alt: "Pravnya Home chat showing a parent's question and Pravnya's answer",
+              caption: "Ask a question from Home.",
+            }}
           />
         </div>
       </section>
@@ -57,7 +68,7 @@ export default function AskPravnyaAiPage() {
           </div>
         </div>
       </section>
-      <CtaBanner title="Ready to see what your record reveals?" body="Build your record for two weeks. Then let Pravnya AI show you what it finds." />
+      <CtaBanner title="Ready to log your first note?" body="Start with one session. Pravnya's AI matches it to your child's goals, and you decide what is saved." />
     </>
   );
 }

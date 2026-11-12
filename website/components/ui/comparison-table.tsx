@@ -1,10 +1,9 @@
 const rows = [
   ["Longitudinal record", true, false, false, false, false],
-  ["AI pattern recognition", true, false, false, false, false],
-  ["Appointment preparation", true, false, false, false, false],
-  ["Parent-controlled sharing", true, false, false, false, "Partial"],
-  ["Searchable by meaning", true, "Partial", false, false, false],
-  ["Evidence-traced AI", true, false, false, false, false],
+  ["Goals from your child's IEP", true, false, false, false, "Partial"],
+  ["AI suggestions you approve", true, false, false, false, false],
+  ["Parent-controlled care team", true, false, false, false, "Partial"],
+  ["Ideas to try at home", true, false, false, "Partial", false],
   ["Privacy-first design", true, "Varies", "Varies", "Varies", "Varies"],
   ["Built for families", true, false, false, false, false],
 ];

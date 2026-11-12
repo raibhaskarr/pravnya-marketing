@@ -7,21 +7,19 @@ Do not use real child data.
 Do not use real parent data.
 Do not use real professional, school, clinic, centre, or medical data.
 
-Required files:
+Required files (portrait phone screenshots, 1179x2556 WebP):
 
-- `screenshot-today.webp`
-- `screenshot-journey.webp`
-- `screenshot-growth.webp`
-- `screenshot-ask-pravnya.webp`
-- `screenshot-activities.webp`
-- `screenshot-capture.webp`
-- `screenshot-child-profile.webp`
-- `screenshot-ai-summary.webp`
-- `screenshot-preparation-summary.webp`
-
-Optional or later-stage file:
-
-- `screenshot-sharing-permissions.webp`
+- `screenshot-home.webp` — Home: milestone card, Growth highlight, Try this at home, tab bar
+- `screenshot-ask-pravnya.webp` — Home chat: a parent's question and Pravnya's answer
+- `screenshot-capture.webp` — Log screen, Write tab with a note typed
+- `screenshot-ai-review.webp` — AI review: "Found 2 pieces of evidence" with entries to approve
+- `screenshot-photo-capture.webp` — Log, Photo tab, a photographed therapist note
+- `screenshot-voice-note.webp` — Log, Voice tab, recorded clip
+- `screenshot-goals.webp` — Goals list
+- `screenshot-growth.webp` — Growth
+- `screenshot-activities.webp` — Activities ("Try this at home")
+- `screenshot-iep-upload.webp` — IEP upload review: new goals and updates to existing goals
+- `screenshot-care-team.webp` — Profile: care team and weekly schedule
 
 All screenshots must follow:
 

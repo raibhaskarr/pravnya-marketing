@@ -11,14 +11,14 @@ export const metadata: Metadata = pageMetadata("parents");
 
 const reasons = [
   { icon: Heart, title: "Less to remember alone", body: "Save the detail while it is fresh instead of reconstructing it before an appointment." },
-  { icon: UsersThree, title: "A clearer shared picture", body: "Bring home, school and therapy updates together without losing who said what." },
-  { icon: Lock, title: "Control stays with you", body: "Choose who can contribute or view information. Export or delete your record when you want." },
+  { icon: UsersThree, title: "Home and therapy, side by side", body: "See how your child's goals are going at home and at the centre, in one place." },
+  { icon: Lock, title: "Control stays with you", body: "Approve every AI suggestion before it is saved. Decide who joins your child's care team, and delete your account when you want." },
 ];
 
 const faq = [
   { question: "Does my child need a diagnosis?", answer: "No. Pravnya is useful for any family keeping track of development, support, school or therapy information." },
   { question: "Will Pravnya compare my child with others?", answer: "No. Pravnya focuses on your child's own information over time and does not diagnose or rank children." },
-  { question: "Can another caregiver contribute?", answer: "Yes. You can invite caregivers and professionals, decide what they can do and change access later." },
+  { question: "Can my child's therapist be part of it?", answer: "Yes. From Profile, invite your child's therapist by email to join their care team. You can resend or cancel an invite, and remove anyone from the care team at any time." },
 ];
 
 export default function ParentsPage() {
@@ -32,8 +32,8 @@ export default function ParentsPage() {
       </section>
       <section className="bg-surface py-16 md:py-20">
         <div className="container-standard grid gap-10 lg:grid-cols-2">
-          <SectionHeading align="left" eyebrow="What Pravnya is" title="A private child development companion." body="It helps you capture updates, understand possible patterns and prepare for conversations." />
-          <SectionHeading align="left" eyebrow="What Pravnya is not" title="Not a doctor, diagnosis or score." body="Pravnya supports your record and preparation. Professionals remain essential for medical, clinical and educational decisions." />
+          <SectionHeading align="left" eyebrow="What Pravnya is" title="A private child development companion." body="It helps you log what happened, keep your child's goals in one place and see how they are growing." />
+          <SectionHeading align="left" eyebrow="What Pravnya is not" title="Not a doctor, diagnosis or score." body="Pravnya supports your record of your child's goals. Professionals remain essential for medical, clinical and educational decisions." />
         </div>
       </section>
       <section className="py-16 md:py-20">
@@ -42,7 +42,7 @@ export default function ParentsPage() {
           <div className="mt-10"><FaqAccordion items={faq} /></div>
         </div>
       </section>
-      <CtaBanner title="Start with one moment worth remembering." body="Free to start. No credit card." cta="Start free" />
+      <CtaBanner title="Start with one note worth remembering." body="Free to start. No credit card." cta="Start free" />
     </>
   );
 }

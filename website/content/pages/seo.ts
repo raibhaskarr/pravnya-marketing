@@ -1,19 +1,19 @@
 export const seo = {
   home: {
     title: "Pravnya: Child Development Tracking and AI Companion for Parents",
-    description: "Keep child development notes, school and therapy updates, goals and reports in one private place. See patterns and prepare for meetings with Pravnya.",
-    keywords: ["child development tracking app", "parent observation app", "therapy and school updates", "AI companion for parents"],
+    description: "Log therapy sessions and moments at home, keep your child's goals and IEP in one private place, and see how they are growing with Pravnya.",
+    keywords: ["child development tracking app", "therapy goal tracking for parents", "IEP goal tracker", "AI companion for parents"],
     path: "/",
   },
   features: {
     title: "What You Can Do with Pravnya",
-    description: "Save child development updates, see patterns, prepare for meetings and share safely.",
-    keywords: ["child development features", "observation tool", "appointment preparation"],
+    description: "Log a session by note, photo or voice, review AI suggestions, track goals from your child's IEP, see growth and get ideas to try at home.",
+    keywords: ["child development features", "therapy session log", "IEP goals", "home practice ideas"],
     path: "/features",
   },
   howItWorks: {
-    title: "How Pravnya Works — Capture, Understand, Act",
-    description: "See how Pravnya turns everyday child development updates into a useful, private family record.",
+    title: "How Pravnya Works — Log, Review, Grow",
+    description: "See how Pravnya turns a quick note, photo or voice note into goal entries you approve, and progress you can see.",
     keywords: ["how to organize child development records", "parent record app"],
     path: "/how-it-works",
   },
@@ -31,13 +31,13 @@ export const seo = {
   },
   parents: {
     title: "Pravnya for Parents — Every step forward matters",
-    description: "A parent-friendly guide to Pravnya: what it is, how it helps families, responsible AI, privacy, beta access, and frequently asked questions.",
+    description: "A parent-friendly guide to Pravnya: what it is, how it helps families, responsible AI, privacy, and frequently asked questions.",
     keywords: ["Pravnya for parents", "child development companion", "parent development record"],
     path: "/parents",
   },
   askPravnya: {
     title: "Ask Pravnya AI — Honest AI for development",
-    description: "Evidence-based AI that works from your record, not from population databases",
+    description: "AI that works from your child's own goals, proposes entries for you to approve, and says when it can't help",
     keywords: ["AI child development", "honest AI", "development patterns"],
     path: "/ask-pravnya-ai",
   },
@@ -46,12 +46,6 @@ export const seo = {
     description: "See your child's progress within their own story — not measured against other children",
     keywords: ["child progress tracker", "longitudinal development", "child growth"],
     path: "/growth",
-  },
-  journey: {
-    title: "The parent journey through child development",
-    description: "Pravnya supports parents at every stage of navigating their child's developmental journey",
-    keywords: ["parent journey", "developmental support", "child development stages"],
-    path: "/journey",
   },
   pricing: {
     title: "Pravnya Pricing — Free to start. Premium for the families who need more.",
@@ -85,13 +79,13 @@ export const seo = {
   },
   faq: {
     title: "Pravnya FAQ — Questions parents ask",
-    description: "Answers to common questions about Pravnya, the AI, data privacy, and professional use",
+    description: "Answers to common questions about Pravnya, the AI, data privacy, and your child's care team",
     keywords: ["Pravnya FAQ", "how does Pravnya work"],
     path: "/faq",
   },
   download: {
     title: "Download Pravnya",
-    description: "Available for iOS and Android",
+    description: "Use Pravnya on the web, or get the Android app",
     keywords: ["download Pravnya", "child development app download"],
     path: "/download",
   },

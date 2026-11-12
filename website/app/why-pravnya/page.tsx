@@ -16,8 +16,8 @@ export default function WhyPravnyaPage() {
         <div className="container-standard">
           <SectionHeading title="Trustworthy by design." body="Pravnya is built to support a parent's understanding—not replace it." />
           <div className="mt-12 grid gap-6 md:grid-cols-3">
-            <FeatureCard icon={Eye} title="Insights show their basis" body="See the updates and period behind what Pravnya suggests." />
-            <FeatureCard icon={User} title="Parents stay in control" body="Correct, dismiss and decide what should be shared." />
+            <FeatureCard icon={Eye} title="Suggestions show their basis" body="Each AI suggestion shows what it is based on before you approve it." />
+            <FeatureCard icon={User} title="Parents stay in control" body="Uncheck what isn't right, and decide who joins the care team." />
             <FeatureCard icon={Lock} title="Privacy is not an add-on" body="Your record is not sold or used to train AI models." />
           </div>
         </div>

@@ -1,21 +1,17 @@
 import {
-  BookOpen,
   Camera,
   CaretRight,
   ChartLineUp,
   ChatCircleText,
   ClipboardText,
-  FileText,
+  FileArrowUp,
   Heart,
   HouseLine,
   LockKey,
   Microphone,
   NotePencil,
-  ShareNetwork,
-  Sparkle,
-  UserCircle,
+  Target,
   UsersThree,
-  VideoCamera,
 } from "@phosphor-icons/react/dist/ssr";
 import { sharedDisclaimerFaq } from "../shared-disclaimer-faq";
 
@@ -39,96 +35,92 @@ export const parentsHero = {
   eyebrow: "For parents, families, and partners",
   title: "Every step forward matters.",
   body:
-    "A modern, AI-powered companion that helps parents capture, understand, and celebrate every step of their child's developmental journey.",
+    "An AI-powered companion that helps parents log what happened, keep their child's goals in one place, and celebrate every step forward.",
 };
 
 export const pravnyaPieces = [
-  "A development journal for the notes, questions, and observations you want to remember.",
-  "A growth tracker that shows progress in your child's own story, not against other children.",
-  "A family memory book for the photos, videos, and voice notes worth keeping.",
-  "An AI assistant that helps you notice patterns in what you've already recorded.",
-  "Progress reports ready to bring to any appointment or meeting.",
-  "Secure sharing so you decide exactly what a professional or family member sees.",
+  "A quick way to log a therapy session or a moment at home — write it, photograph a note, or record a voice note.",
+  "One place for your child's goals, including the ones in their IEP or therapy plan.",
+  "A growth view that shows progress in your child's own story, not against other children.",
+  "Ideas for what to try at home, based on what your child is already doing at the centre.",
+  "An AI companion that answers your questions using your child's own goals.",
+  "A care team you control: invite your child's therapist, and remove anyone at any time.",
 ];
 
 export const parentFeatures = [
   {
-    icon: UserCircle,
-    title: "Child Profile",
-    body:
-      "Every child has their own space: basic details, the developmental areas you're keeping an eye on, and the professionals involved in their care. You build it gradually — nothing has to be filled in on day one.",
-    benefit: "Everything about your child's journey starts from one organised place.",
-    screenshot: "App screenshot: Child Profile",
-    screenshotSrc: "/assets/screenshots/screenshot-child-profile.webp",
-    screenshotCaption: "A dedicated space for your child's profile, supports, and development areas.",
-    cta: { label: "Learn more", href: "/features" },
-  },
-  {
     icon: HouseLine,
-    title: "Today",
+    title: "Home",
     body:
-      "Your home screen. It shows what you've recently captured, any AI insight that's ready for you, and puts the capture button one tap away.",
-    benefit: "A quick daily check-in — not another dashboard to study.",
-    screenshot: "App screenshot: Today",
-    screenshotSrc: "/assets/screenshots/screenshot-today.webp",
-    screenshotCaption: "Recent insights, reminders, and capture actions in one calm daily view.",
+      "Your starting point. Home shows growth highlights, milestones like a first success or a skill showing up at home, and ideas to try at home. After a scheduled therapy session it offers to help you jot down how it went, and it gently prompts you to fill in missing details like your child's therapy days.",
+    benefit: "A calm check-in that shows what's worth celebrating and what to try next.",
+    screenshot: "App screenshot: Home",
+    screenshotSrc: "/assets/screenshots/screenshot-home.webp",
+    screenshotCaption: "Milestones, growth highlights and ideas to try at home.",
     cta: { label: "See how it works", href: "/how-it-works" },
   },
   {
     icon: NotePencil,
-    title: "Quick Capture",
-    body: "The fastest way to add anything to your child's record — in whichever form fits the moment.",
-    benefit: "A thirty-second voice note captured in the moment beats a perfectly written paragraph that never gets written.",
-    screenshot: "App screenshot: Quick Capture",
+    title: "Log a session: Write",
+    body: "Tap the camera button on Home and type what happened — a few lines after therapy or a moment at home is enough.",
+    benefit: "Capture it while it's fresh, in your own words.",
+    screenshot: "App screenshot: Log, Write tab",
     screenshotSrc: "/assets/screenshots/screenshot-capture.webp",
-    screenshotCaption: "Choose the fastest way to save what just happened.",
+    screenshotCaption: "Type what happened in your own words.",
   },
   {
     icon: Camera,
-    title: "Photos",
-    body: "Capture a moment visually, straight from your camera or photo library, with a short note explaining what it shows.",
-    benefit: "Turns a photo into a searchable, meaningful part of your child's record — not just another file in your camera roll.",
-    screenshot: "App screenshot: Photo capture",
+    title: "Log a session: Photo",
+    body: "Take a photo of a handwritten or printed note or worksheet from your child's therapist or school. Pravnya's AI reads it.",
+    benefit: "No need to retype what's already on paper.",
+    screenshot: "App screenshot: Log, Photo tab",
     screenshotSrc: "/assets/screenshots/screenshot-photo-capture.webp",
-    screenshotCaption: "Save a photo memory with context so it becomes part of the record.",
-  },
-  {
-    icon: VideoCamera,
-    title: "Videos",
-    body:
-      "Add a short video when something is better shown than described — a new movement, a first attempt at a word, a moment of play.",
-    benefit: "Captures nuance that a written note can't.",
-    screenshot: "App screenshot: Video capture",
-    screenshotSrc: "/assets/screenshots/screenshot-video-upload.webp",
-    screenshotCaption: "Upload a video and tell Pravnya what to focus on.",
+    screenshotCaption: "Photograph a therapist's note and let the AI read it.",
   },
   {
     icon: Microphone,
-    title: "Voice Notes",
-    body:
-      "Speak instead of type. Voice notes are automatically transcribed and become fully searchable, and they work even without an internet connection — transcription completes as soon as you're back online.",
-    benefit: "The lowest-effort way to capture something before it slips your mind.",
-    screenshot: "App screenshot: Voice note",
+    title: "Log a session: Voice",
+    body: "Record a voice note instead of typing. Pravnya's AI listens and works out what happened.",
+    benefit: "The lowest-effort way to log something before it slips your mind.",
+    screenshot: "App screenshot: Log, Voice tab",
     screenshotSrc: "/assets/screenshots/screenshot-voice-note.webp",
-    screenshotCaption: "Record or upload a voice note when typing is too slow.",
+    screenshotCaption: "Record a voice note when typing is too slow.",
   },
   {
-    icon: BookOpen,
-    title: "Journey",
+    icon: ClipboardText,
+    title: "Review with AI",
     body:
-      "A timeline that shows your child's development as a story across time, not as a list of disconnected entries — organised by developmental domain, with milestones and professional visits marked along the way.",
-    benefit:
-      "Patterns and progress become visible when you look at weeks and months together. It may feel sparse at first; it becomes rich after a few months of steady capturing.",
-    screenshot: "App screenshot: Journey timeline",
-    screenshotSrc: "/assets/screenshots/screenshot-journey.webp",
-    screenshotCaption: "Moments become a timeline your family can revisit.",
-    cta: { label: "Explore Journey", href: "/journey" },
+      "Whichever way you log, Pravnya's AI matches what happened to your child's existing goals and proposes entries: the goal, how it went, how much help was needed and how your child responded. Each suggestion shows what it is based on and how confident the AI is. Uncheck anything that isn't right, optionally tag the centre or therapist, and add the rest. If nothing matches, Pravnya says so.",
+    benefit: "Nothing is saved until you approve it.",
+    screenshot: "App screenshot: AI review",
+    screenshotSrc: "/assets/screenshots/screenshot-ai-review.webp",
+    screenshotCaption: "Approve the entries that are right, uncheck the rest.",
+  },
+  {
+    icon: Target,
+    title: "Goals",
+    body:
+      "All of your child's goals, each tagged with its developmental area and skill, how many entries it has, and where it came from — your IEP upload or your care team. Open a goal to see recent entries, or log something for it by hand.",
+    benefit: "Every goal, and the evidence behind it, in one place.",
+    screenshot: "App screenshot: Goals",
+    screenshotSrc: "/assets/screenshots/screenshot-goals.webp",
+    screenshotCaption: "Your child's goals, with their area, skill and entries.",
+  },
+  {
+    icon: FileArrowUp,
+    title: "Upload IEP",
+    body:
+      "Upload a PDF or photo of your child's IEP or therapy plan, during setup or later from Goals. Pravnya's AI finds new goals and progress updates on existing ones. You review them and add only what's right.",
+    benefit: "Your child's plan becomes goals you can follow, without retyping it.",
+    screenshot: "App screenshot: IEP upload review",
+    screenshotSrc: "/assets/screenshots/screenshot-iep-upload.webp",
+    screenshotCaption: "New goals and updates to existing goals, ready for review.",
   },
   {
     icon: ChartLineUp,
     title: "Growth",
     body:
-      "Shows movement in your child's own story — and only that. Pravnya never shows a score, a percentile, or a behind/on-track label. You choose the time period you want to look at.",
+      "Shows progress against your child's own history — never compared with other children. See each goal with simple wording like \"Getting stronger\" or \"Still building\", a coloured bar for the last five tries, and milestones like a first success or a skill showing up at home.",
     benefit: "Progress you can see and feel proud of, measured against your own child, over time.",
     screenshot: "App screenshot: Growth view",
     screenshotSrc: "/assets/screenshots/screenshot-growth.webp",
@@ -139,87 +131,69 @@ export const parentFeatures = [
     icon: ChatCircleText,
     title: "Ask Pravnya",
     body:
-      "A conversational AI that helps you understand your own observations more deeply — by reading only your child's record, never the open internet or other families' data.",
-    benefit: "A thoughtful second look at what you've already noticed, without ever telling you what to do.",
+      "Ask a question, or tell Pravnya what happened, from the chat box on Home. It answers using your child's own goals and keeps the conversation. If you're describing something that happened, it takes you to logging with your words already filled in.",
+    benefit: "A thoughtful answer grounded in your child's goals, without ever telling you what to do.",
     screenshot: "App screenshot: Ask Pravnya",
     screenshotSrc: "/assets/screenshots/screenshot-ask-pravnya.webp",
-    screenshotCaption: "Ask thoughtful questions grounded in your own record.",
+    screenshotCaption: "Ask a question and get an answer grounded in your child's goals.",
     cta: { label: "Read AI commitments", href: "/ask-pravnya-ai" },
   },
   {
-    icon: ClipboardText,
+    icon: HouseLine,
     title: "Activities",
-    body: "Your complete record — every note, photo, voice memo, and document you've ever captured, newest first, and fully searchable.",
-    benefit: "Go back, add a tag you forgot, or find the one entry from six months ago that suddenly matters again.",
+    body:
+      "Try this at home: goals your child has shown at a centre or in therapy but hasn't yet tried much at home. Tap one to log how the home try went.",
+    benefit: "Simple ideas for home practice, based on what your child is already doing.",
     screenshot: "App screenshot: Activities",
     screenshotSrc: "/assets/screenshots/screenshot-activities.webp",
-    screenshotCaption: "Simple home practice ideas linked to your child's current needs.",
+    screenshotCaption: "Try this at home, based on what your child already does at the centre.",
   },
   {
-    icon: FileText,
-    title: "Reports",
+    icon: UsersThree,
+    title: "Profile: care team and schedule",
     body:
-      "Generates a structured summary of what your record shows — observations, what's changed, and questions worth raising — ready in minutes, before any appointment.",
-    benefit: "Walk in prepared instead of trying to remember everything on the spot.",
-    screenshot: "App screenshot: Appointment preparation report",
-    screenshotSrc: "/assets/screenshots/screenshot-preparation-summary.webp",
-    screenshotCaption: "Prepare for appointments with a structured summary.",
-  },
-  {
-    icon: ShareNetwork,
-    title: "Sharing",
-    body:
-      "For a single appointment, send a secure, time-limited link or exported PDF. For an ongoing relationship, add someone to Who Has Access with exactly the permissions you choose.",
-    benefit: "Nothing is shared unless you choose to share it — and you're always in control of how much.",
-    screenshot: "App screenshot: Sharing permissions",
-    screenshotSrc: "/assets/screenshots/screenshot-sharing-permissions.webp",
-    screenshotCaption: "Control exactly who can see what.",
-  },
-  {
-    icon: Sparkle,
-    title: "Help Centre",
-    body: "A searchable library of plain-English guidance covering every part of Pravnya, plus contextual help right where you need it.",
-    benefit: "You're never more than a tap away from a clear answer.",
-    screenshot: "App screenshot: Help Centre",
-    screenshotSrc: "/assets/screenshots/screenshot-ask-pravnya.webp",
-    screenshotCaption: "Clear answers stay close to the moments you are working through.",
+      "Invite your child's therapist by email to join their care team. Resend or cancel an invite, and remove anyone at any time. Add your child's weekly therapy slots — what, which day, what time, and optionally the therapist.",
+    benefit: "You decide who is on your child's care team.",
+    screenshot: "App screenshot: Care team and schedule",
+    screenshotSrc: "/assets/screenshots/screenshot-care-team.webp",
+    screenshotCaption: "Your child's care team and weekly therapy schedule.",
   },
   {
     icon: LockKey,
     title: "Privacy & Security",
     body:
-      "Your child's record is encrypted, private by default, and visible only to you unless you choose to share it. You can export or permanently delete your data at any time.",
+      "Your child's record is private by default. We do not sell it or use it to train AI models. You decide who joins your child's care team, and you can delete your account at any time.",
     benefit: "Peace of mind that comes from real control, not just a promise.",
-    screenshot: "App screenshot: Privacy controls",
-    screenshotSrc: "/assets/screenshots/screenshot-sharing-permissions.webp",
-    screenshotCaption: "Privacy settings and sharing controls remain parent-led.",
+    screenshot: "App screenshot: Care team",
+    screenshotSrc: "/assets/screenshots/screenshot-care-team.webp",
+    screenshotCaption: "The care team stays parent-led.",
     cta: { label: "Read privacy", href: "/privacy" },
   },
 ];
 
 export const parentLoveReasons = [
-  "Capture meaningful moments instantly — in whatever form fits the moment: a note, a photo, a voice memo.",
+  "Log what happened in whatever form fits the moment: a note, a photo of a note, a voice note.",
   "Celebrate progress over time — see how far your child has come, in their own story.",
-  "Remember milestones without relying on memory alone.",
-  "Stay organised with one timeline, instead of scattered photos, notes, and texts.",
-  "Share updates with confidence, with exactly the people you choose, and nothing more.",
-  "Receive thoughtful, honest insights grounded in what you've actually recorded.",
+  "Remember milestones like a first success without relying on memory alone.",
+  "Keep your child's goals, including their IEP goals, in one place instead of scattered papers and messages.",
+  "Know what to try at home, based on what your child is already doing at the centre.",
+  "Approve every AI suggestion before it is saved.",
 ];
 
 export const responsibleAiPoints = [
   "AI supports parents. It never replaces therapists, teachers, or healthcare professionals.",
-  "Every answer is grounded in your child's own information and guidance we trust — never other families' data.",
-  "When the evidence is limited, Pravnya says so.",
-  "You remain in control. Every AI insight can be reviewed, corrected, or dismissed.",
+  "Pravnya's answers are grounded in your child's own goals — never other families' data.",
+  "When nothing matches, or it can't help, Pravnya says so.",
+  "You remain in control. AI only proposes; nothing is saved until you approve it.",
 ];
 
 export const privacyPoints = [
   "You own your data. It belongs to your family — not to us, and not for sale.",
-  "Sharing is always your choice. Nothing leaves your account unless you actively share it.",
+  "You decide who joins your child's care team, and you can remove anyone at any time.",
   "Your data is encrypted, both in transit and at rest, and private by default.",
   "We will never sell your data, share it with advertisers, or use it beyond helping you and the people you choose to include.",
   "Your child's record is never used to train AI models.",
-  "You can export or permanently delete your data whenever you choose.",
+  "You can permanently delete your account whenever you choose.",
 ];
 
 export const audienceGroups = ["Parents", "Grandparents", "Caregivers", "Teachers", "Therapists"];
@@ -247,7 +221,7 @@ export const parentsFaq = [
   {
     question: "What is Pravnya, exactly?",
     answer:
-      "Pravnya is an app that helps parents capture, organise, and understand their child's developmental journey — combining a journal, a growth tracker, a memory book, an AI assistant, and secure sharing in one place.",
+      "Pravnya is an app that helps parents log what happened in therapy and at home, keep their child's goals in one place, and see how their child is growing. Its AI only proposes; you decide what is saved.",
   },
   {
     question: "Who is Pravnya for?",
@@ -264,24 +238,16 @@ export const parentsFaq = [
   urgentConcernFaq,
   {
     question: "What devices does Pravnya work on?",
-    answer: "Pravnya is available on iPhone, Android, and the web.",
+    answer: "Pravnya works in your phone or computer browser, and there is an Android app.",
   },
   {
     question: "Can I track more than one child?",
-    answer: "Yes. Pravnya supports multiple children within a family.",
+    answer: "Yes. You can add more than one child and switch between them from the top of the app.",
   },
   {
-    question: "Does Pravnya work offline?",
-    answer: "Text and voice notes can be captured offline; voice notes are transcribed automatically once you're back online.",
-  },
-  {
-    question: "What languages does Pravnya support?",
-    answer: "Pravnya currently supports English, with additional languages planned.",
-  },
-  {
-    question: "Can my partner or co-parent see our child's record too?",
+    question: "Can my child's therapist be part of it?",
     answer:
-      "Yes. From your child's profile, add them under Who Has Access with a Family relationship. They'll get their own login and exactly the access you choose.",
+      "Yes. From Profile, invite your child's therapist by email to join their care team. If they already use Pravnya, they are linked right away. You can remove anyone from the care team at any time.",
   },
   {
     question: "Is my family's data sold to anyone?",
@@ -296,13 +262,8 @@ export const parentsFaq = [
     answer: "Yes. Data is encrypted both in transit and at rest, and it's private by default.",
   },
   {
-    question: "Can I export or delete my data?",
-    answer: "Yes, at any time. You can request a full export of your data, or request permanent deletion.",
-  },
-  {
-    question: "Is there a free plan?",
-    answer:
-      "Yes. Pravnya offers a free plan so every family can start capturing right away, with an optional Premium plan for deeper insights and reporting.",
+    question: "Can I delete my data?",
+    answer: "Yes, at any time. See our delete-account page for how it works.",
   },
 ];
 
