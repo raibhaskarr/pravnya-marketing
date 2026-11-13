@@ -1,1 +1,148 @@
-{}
+{
+  "log-in-seconds": {
+    "en": [
+      {
+        "file": "log-in-seconds-en-0-88c50496da.wav",
+        "seconds": 4.437
+      },
+      {
+        "file": "log-in-seconds-en-1-ac3051d31f.wav",
+        "seconds": 6.059
+      },
+      {
+        "file": "log-in-seconds-en-2-8ebc64005a.wav",
+        "seconds": 5.717
+      },
+      {
+        "file": "log-in-seconds-en-3-1d8618f09c.wav",
+        "seconds": 3.413
+      },
+      {
+        "file": "log-in-seconds-en-4-d12e9a65b1.wav",
+        "seconds": 4.523
+      },
+      {
+        "file": "log-in-seconds-en-5-2cfdcef8cb.wav",
+        "seconds": 4.352
+      }
+    ],
+    "hi": [
+      {
+        "file": "log-in-seconds-hi-0-5efd4c8bcc.wav",
+        "seconds": 4.267
+      },
+      {
+        "file": "log-in-seconds-hi-1-3996fc4ce9.wav",
+        "seconds": 6.144
+      },
+      {
+        "file": "log-in-seconds-hi-2-538db49a5a.wav",
+        "seconds": 8.704
+      },
+      {
+        "file": "log-in-seconds-hi-3-8609cd8d4b.wav",
+        "seconds": 5.291
+      },
+      {
+        "file": "log-in-seconds-hi-4-1566cb64b0.wav",
+        "seconds": 7.68
+      },
+      {
+        "file": "log-in-seconds-hi-5-bb1f2fd925.wav",
+        "seconds": 3.413
+      }
+    ]
+  },
+  "iep-goals": {
+    "en": [
+      {
+        "file": "iep-goals-en-0-e6752a11d0.wav",
+        "seconds": 4.437
+      },
+      {
+        "file": "iep-goals-en-1-f2dcb7c961.wav",
+        "seconds": 6.912
+      },
+      {
+        "file": "iep-goals-en-2-672b69877b.wav",
+        "seconds": 4.864
+      },
+      {
+        "file": "iep-goals-en-3-a907f90a1c.wav",
+        "seconds": 3.755
+      },
+      {
+        "file": "iep-goals-en-4-2cfdcef8cb.wav",
+        "seconds": 4.267
+      }
+    ],
+    "hi": [
+      {
+        "file": "iep-goals-hi-0-169843acd1.wav",
+        "seconds": 4.949
+      },
+      {
+        "file": "iep-goals-hi-1-f8a94c49a0.wav",
+        "seconds": 8.277
+      },
+      {
+        "file": "iep-goals-hi-2-773844120b.wav",
+        "seconds": 4.011
+      },
+      {
+        "file": "iep-goals-hi-3-4b19a4b398.wav",
+        "seconds": 4.096
+      },
+      {
+        "file": "iep-goals-hi-4-bb1f2fd925.wav",
+        "seconds": 3.328
+      }
+    ]
+  },
+  "try-at-home": {
+    "en": [
+      {
+        "file": "try-at-home-en-0-23b499c428.wav",
+        "seconds": 3.925
+      },
+      {
+        "file": "try-at-home-en-1-74696dc2e7.wav",
+        "seconds": 6.827
+      },
+      {
+        "file": "try-at-home-en-2-151cdeae19.wav",
+        "seconds": 5.035
+      },
+      {
+        "file": "try-at-home-en-3-4755fa89f0.wav",
+        "seconds": 5.973
+      },
+      {
+        "file": "try-at-home-en-4-2cfdcef8cb.wav",
+        "seconds": 3.84
+      }
+    ],
+    "hi": [
+      {
+        "file": "try-at-home-hi-0-cb567ab661.wav",
+        "seconds": 5.376
+      },
+      {
+        "file": "try-at-home-hi-1-d79f08eecb.wav",
+        "seconds": 6.997
+      },
+      {
+        "file": "try-at-home-hi-2-fc2c163fd0.wav",
+        "seconds": 5.205
+      },
+      {
+        "file": "try-at-home-hi-3-a70fa829c2.wav",
+        "seconds": 5.461
+      },
+      {
+        "file": "try-at-home-hi-4-bb1f2fd925.wav",
+        "seconds": 3.584
+      }
+    ]
+  }
+}

@@ -22,10 +22,10 @@ export const logInSeconds: Reel = {
     },
     {
       screen: "screenshot-ai-review.webp",
-      headline: { en: "AI matches it to their goals", hi: "AI इसे बच्चे के लक्ष्यों से जोड़ता है" },
+      headline: { en: "Pravnya matches it to their goals", hi: "Pravnya इसे बच्चे के लक्ष्यों से जोड़ता है" },
       narration: {
-        en: "Pravnya's AI matches it to your child's goals, and shows what each suggestion is based on.",
-        hi: "Pravnya का AI इसे आपके बच्चे के लक्ष्यों से जोड़ता है, और बताता है कि हर सुझाव किस बात पर आधारित है।",
+        en: "Pravnya matches it to your child's goals, and shows what each suggestion is based on.",
+        hi: "Pravnya इसे आपके बच्चे के लक्ष्यों से जोड़ता है, और बताता है कि हर सुझाव किस बात पर आधारित है।",
       },
       focus: 0.45,
     },
@@ -49,8 +49,8 @@ export const logInSeconds: Reel = {
     },
   ],
   post: {
-    en: "Therapy just ended. What do you remember by dinner? 📝\n\nWith Pravnya, write a note, snap the therapist's note or record a voice note. Pravnya's AI matches it to your child's goals, and nothing is saved until you approve it.\n\nFree to start: pravnya.com",
-    hi: "थेरेपी अभी ख़त्म हुई। रात तक क्या याद रहता है? 📝\n\nPravnya में नोट लिखें, थेरेपिस्ट के नोट की फ़ोटो लें या वॉइस नोट रिकॉर्ड करें। Pravnya का AI इसे आपके बच्चे के लक्ष्यों से जोड़ता है, और आपकी मंज़ूरी के बिना कुछ सेव नहीं होता।\n\nमुफ़्त शुरू करें: pravnya.com",
+    en: "Therapy just ended. What do you remember by dinner? 📝\n\nWith Pravnya, write a note, snap the therapist's note or record a voice note. Pravnya matches it to your child's goals, and nothing is saved until you approve it.\n\nFree to start: pravnya.com",
+    hi: "थेरेपी अभी ख़त्म हुई। रात तक क्या याद रहता है? 📝\n\nPravnya में नोट लिखें, थेरेपिस्ट के नोट की फ़ोटो लें या वॉइस नोट रिकॉर्ड करें। Pravnya इसे आपके बच्चे के लक्ष्यों से जोड़ता है, और आपकी मंज़ूरी के बिना कुछ सेव नहीं होता।\n\nमुफ़्त शुरू करें: pravnya.com",
   },
   hashtags: ["#Pravnya", "#SpeechTherapy", "#OccupationalTherapy", "#ParentingIndia", "#SpecialNeedsParenting", "#ChildDevelopment"],
 };
