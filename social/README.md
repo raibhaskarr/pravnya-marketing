@@ -6,7 +6,8 @@ Built with [Remotion](https://www.remotion.dev) (React → video), voiced with S
 ```
 src/reels/*.ts   one file per reel: scenes (screenshot, on-screen line, voice script) in en + hi, and the post text
 src/AppDemoReel.tsx   the video template (vertical 1080×1920 and square 1080×1080)
-scripts/         tts (voice), render (MP4s), review (review page), post (publish)
+scripts/         tts (voice), render (MP4s), review (review page), post (publish), manifest (reels.json)
+dashboard/       social.pravnix.ai: watch, approve, render and post from the browser (see dashboard/README.md)
 ```
 
 ## Rules for every reel
@@ -27,6 +28,9 @@ Rendering needs Chromium. Remotion downloads its own; in WSL without system libr
 `REMOTION_BROWSER` at an installed Chromium (e.g. Playwright's headless shell).
 
 ## Make a reel
+
+The usual way: change the reel files, merge to `main`, then press **Render again** on social.pravnix.ai, approve
+each language and post from there. The commands below do the same from a computer.
 
 1. **Write it**: copy `src/reels/log-in-seconds.ts`, change the scenes and post text, add it to `src/reels/index.ts`.
 2. **Preview**: `npm run studio` opens Remotion Studio to scrub through every reel, language and format.

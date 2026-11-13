@@ -4,3 +4,4 @@ public/screens/
 public/brand/
 .env
 public/voice
+.env.local
