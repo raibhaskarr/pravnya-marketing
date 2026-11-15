@@ -1,17 +1,17 @@
 ---
 title: What is an IEP? A guide for parents in India and the UAE
-seoTitle: What is an IEP? A guide for parents
-description: What an IEP (individualised education plan) is, who is involved, what good goals look like, and how IEPs work in schools in India and the UAE.
+seoTitle: What is an IEP? Meaning, goals and examples for parents
+description: What is an IEP? The full form and meaning of an individualised education plan, IEP goal examples, who is involved, and how IEPs work in India and the UAE.
 date: 2026-11-15
 topic: Navigating the system
 author: The Pravnya team
 ---
 
-If your child needs extra support at school, you may be told they will have an IEP. It is one of the most useful documents in your child's school life, and also one of the most confusing at first. This guide explains what an IEP is, what goes into it, and how you can make it work for your child.
+If your child needs extra support at school, you may be told they will have an IEP. It is one of the most useful documents in your child's school life, and also one of the most confusing at first. This guide explains what an IEP is (an individualised education plan), what goes into it, examples of good IEP goals, and how you can make it work for your child.
 
-## IEP in plain words
+## IEP meaning and full form
 
-IEP stands for individualised education plan (some schools say programme). It is a written plan for one child that sets out:
+IEP stands for individualised education plan (some schools say programme, and in the US it is called an individualized education program). It is a written plan for one child that sets out:
 
 - where your child is now in learning, communication, behaviour and daily skills
 - goals for the coming term or year
@@ -22,7 +22,7 @@ IEP stands for individualised education plan (some schools say programme). It is
 
 Usually the class teacher, a special educator, and you. Therapists such as a speech therapist or occupational therapist may contribute, and older children can often take part too. You know your child best, so your input matters.
 
-## What a good IEP goal looks like
+## IEP goals: an example of a good goal
 
 A useful goal is specific, measurable and has a time frame. Compare:
 
@@ -40,7 +40,7 @@ Ask the school which your child has, and why.
 
 ## IEPs in India
 
-The Rights of Persons with Disabilities Act, 2016 gives children with benchmark disabilities the right to free education from 6 to 18 years, and requires government and government-recognised institutions to provide inclusive education. Inclusive education is also supported under Samagra Shiksha. How schools plan and review individual support varies between schools and education boards, so ask your child's school how they create the plan, who is responsible, and how often it is reviewed.
+The Rights of Persons with Disabilities Act, 2016 gives children with [benchmark disabilities](/blog/udid-card-for-your-child) the right to free education from 6 to 18 years, and requires government and government-recognised institutions to provide inclusive education. Inclusive education is also supported under Samagra Shiksha; our [map of government schemes for children with disabilities](/blog/government-schemes-for-children-with-disabilities-india) explains where it fits. How schools plan and review individual support varies between schools and education boards, so ask your child's school how they create the plan, who is responsible, and how often it is reviewed.
 
 ## IEPs in the UAE
 
@@ -56,7 +56,7 @@ Our guide to [preparing for an IEP meeting](/blog/preparing-for-an-iep-meeting) 
 
 ## Common questions
 
-### What does IEP stand for?
+### What is the full form of IEP?
 
 IEP stands for individualised education plan, sometimes called an individualised education programme. It is a written plan of goals and support for one child.
 
@@ -71,3 +71,7 @@ It depends on the school, but plans are usually reviewed at least once a year an
 ### What is the difference between accommodations and modifications?
 
 Accommodations change how a child learns or shows what they know, such as extra time. Modifications change what is expected, such as a simpler task.
+
+### What are examples of IEP goals?
+
+A good IEP goal is specific, measurable and has a time frame. For example: by the end of term, read a short picture book aloud with no more than three prompts, in three out of four tries.
