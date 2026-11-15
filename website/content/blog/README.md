@@ -13,6 +13,7 @@ date: 2026-11-12
 topic: Navigating the system   # one of: Understanding your child | Navigating the system | The record | Privacy and data | Ask Pravnya AI
 author: The Pravnya team
 reviewedBy: Name, qualification   # optional — only if a real professional has reviewed it
+updated: 2026-12-01               # optional — set when the article is revised; shown as "Updated" and "Last checked"
 ---
 ```
 
@@ -25,3 +26,10 @@ reviewedBy: Name, qualification   # optional — only if a real professional has
 - `> quote` for a single-paragraph callout
 
 Nothing else (no tables, images, HTML or nested lists).
+
+## Disclaimer
+
+Articles under **Understanding your child** show a "general information, not medical advice" note under the
+byline, and articles under **Navigating the system** a "not legal advice, rules change" note
+(`components/blog/disclaimer.tsx`). Both show "Last checked" with `updated` (or `date`) and the reviewer, if any.
+Don't repeat a disclaimer in the article text.
