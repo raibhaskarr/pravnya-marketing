@@ -1,13 +1,13 @@
 ---
 title: UDID card (divyang card) for your child: how to apply, step by step
-seoTitle: UDID card for your child: how to apply
-description: How to apply for your child's UDID card (divyang card) on the Swavlamban portal: documents, the steps, the assessment and what to do after.
+seoTitle: UDID card for child: how to apply online, step by step
+description: How to apply for a UDID card for your child online on the Swavlamban portal: documents required, the steps, the assessment and how to check status.
 date: 2026-11-15
 topic: Navigating the system
 author: The Pravnya team
 ---
 
-The Unique Disability ID card, often called the UDID card or divyang card, is the national identity card for persons with disabilities in India. For a child, it can open the door to schemes, concessions and support at school. Applying is mostly online, but the assessment and paperwork can feel daunting. This guide walks you through it.
+The Unique Disability ID card, often called the UDID card or divyang card, is the national identity card for persons with disabilities in India. A UDID card for your child can open the door to schemes, concessions and support at school. You apply online on the Swavlamban portal, but the assessment and paperwork can feel daunting. This guide walks you through the documents required, each step, and how to check your application status.
 
 Processes change from time to time and can differ by state, so check the official portal and your district office for the latest steps.
 
@@ -19,7 +19,7 @@ The UDID card brings disability details onto one nationally recognised card. Man
 
 Children with any of the disabilities listed in the Rights of Persons with Disabilities Act, 2016 can apply. The government medical authority assesses your child and decides the type and percentage of disability. Many benefits need a **benchmark disability**, which means 40% or more.
 
-## Before you start: what to keep ready
+## UDID card documents required
 
 - A recent passport-size photo of your child
 - Your child's identity proof, such as Aadhaar
@@ -29,9 +29,9 @@ Children with any of the disabilities listed in the Rights of Persons with Disab
 
 Scan or photograph documents clearly before you begin, so uploading is easy.
 
-## Step by step on the official portal
+## How to apply for a UDID card for your child online, step by step
 
-1. Go to the official Swavlamban portal, swavlambancard.gov.in, and choose the option to apply for a disability certificate and UDID card.
+1. Go to the official Swavlamban portal, [swavlambancard.gov.in](https://www.swavlambancard.gov.in), and choose the option to apply for a disability certificate and UDID card.
 2. Register and create your login.
 3. Fill in your child's personal details, address and disability details.
 4. Upload the photo and documents.
@@ -58,19 +58,31 @@ The type and percentage of disability are the medical board's decision. If you h
 - Keep the original safe and carry a photocopy for routine use.
 - If the certificate is temporary, note the date it needs renewing.
 
+## How to check UDID card status
+
+Use the enrolment number you saved when you applied to track the status on the Swavlamban portal.
+
 ## If something goes wrong
 
 If the status does not move for a long time, check the portal first, then contact your district's disability or social welfare office or the hospital where the assessment was done. Keep a note of every visit and every person you spoke to.
 
 ## Next steps
 
-With the UDID card, you can start looking at the support your child may be eligible for. Our [map of government schemes for children with disabilities](/blog/government-schemes-for-children-with-disabilities-india) is a good place to start. Pravnya helps you keep the card, reports and your child's goals together in one record.
+With the UDID card, you can start looking at the support your child may be eligible for. Our [map of government schemes for children with disabilities](/blog/government-schemes-for-children-with-disabilities-india) is a good place to start. If your child needs support at school, read [what an IEP is](/blog/what-is-an-iep) and how it is planned. Pravnya helps you keep the card, reports and your child's goals together in [one record shared with every therapist](/blog/one-record-for-many-therapists).
 
 ## Common questions
 
-### Where do I apply for a UDID card?
+### Where do I apply for a UDID card for my child?
 
 On the official Swavlamban portal, swavlambancard.gov.in. You register, fill in details, upload documents and choose an assessment hospital in your district.
+
+### What documents are required for a UDID card?
+
+A recent passport-size photo of your child, identity proof such as Aadhaar, address proof, any existing disability certificate, and your child's medical and therapy reports with dates.
+
+### Is the UDID card the same as a disability certificate?
+
+You apply for both together on the Swavlamban portal, and once your application is approved the certificate and the card are issued.
 
 ### Who decides the disability percentage?
 
@@ -80,6 +92,6 @@ The government medical authority or board that assesses your child decides the t
 
 Under the RPwD Act 2016, 40% or more is a benchmark disability, and many benefits are only for children with a benchmark disability.
 
-### How do I check my application status?
+### How do I check my UDID card status?
 
 Use the enrolment number from your application to track the status on the Swavlamban portal.
