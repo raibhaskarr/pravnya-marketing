@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight } from "@phosphor-icons/react/dist/ssr";
+import { BlogDisclaimer } from "@/components/blog/disclaimer";
 import { Markdown } from "@/components/blog/markdown";
 import { JsonLd } from "@/components/seo/json-ld";
 import { CtaBanner } from "@/components/ui/cta-banner";
@@ -52,6 +53,7 @@ export default async function BlogPostPage({ params }: Props) {
             </time>{" "}
             · {post.readingMinutes} min read
           </p>
+          <BlogDisclaimer post={post} />
           <div className="mt-6 text-lg leading-8 text-ink-secondary">
             <Markdown source={post.body} />
           </div>
