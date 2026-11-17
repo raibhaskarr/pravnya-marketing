@@ -1,5 +1,7 @@
 export type AnalyticsEvent =
   | "join_beta"
+  | "start_free"
+  | "sign_in"
   | "download_app"
   | "contact_submit"
   | "view_demo"
