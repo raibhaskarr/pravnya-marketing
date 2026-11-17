@@ -6,7 +6,7 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata("privacy");
 
-const lastUpdated = "July 3, 2026";
+const lastUpdated = "November 17, 2026";
 
 export default function PrivacyPage() {
   return (
@@ -33,7 +33,8 @@ export default function PrivacyPage() {
               <p>Your record is stored on secure servers. All data is encrypted at rest and in transit.</p>
               <p>The AI models Pravnya uses are trained on general datasets, not on individual family records.</p>
               <p>Export your complete record or delete a child&apos;s profile any time, right from the app — Data and Export on a child&apos;s profile, or Danger Zone settings to delete. You can also email <a href="mailto:support@pravnya.com" className="text-forest underline">support@pravnya.com</a> if you&apos;d rather we handle a request for you.</p>
-              <p>Pravnya does not use cookies or any third-party tracking or analytics technology. Sign-in uses a token stored on your device, not a cookie. If that changes in the future, we&apos;ll update this page and give you an opt-out before it does.</p>
+              <p>Pravnya does not use cookies, advertising trackers or Google Analytics. Sign-in uses a token stored on your device, not a cookie.</p>
+              <p>To understand which pages of this website are useful, we count visits with privacy-friendly analytics (Cloudflare Web Analytics and Plausible). They set no cookies, don&apos;t identify you or follow you to other sites, and only see things like the page visited, the site you came from, your country and the type of device. Nothing from the Pravnya app or your child&apos;s record is ever sent to them.</p>
               <p>Your data is stored and processed in the United States today, regardless of where your family is located.</p>
             </div>
           </div>
